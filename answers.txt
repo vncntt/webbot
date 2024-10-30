@@ -1,0 +1,6 @@
+Question question_1813403_answer_9310: Ossicles
+Question question_1813403_answer_8381: Pinna
+Question question_1813403_answer_7991: Oval Window
+Question question_1813403_answer_7618: Tympanic Membrane
+Question question_1813403_answer_6176: Cochlea
+Question question_1813403_answer_7914: Tympanic Membrane
