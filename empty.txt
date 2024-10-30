@@ -1,0 +1,121 @@
+Question 1: Match each auditory reception structure to its characteristics, below. The options are: Cochlea, Pinna, Tympanic Membrane, Oval Window, Ossicles
+3-bone lever system that converts large weak oscillations into smaller, more powerful ones
+Your external ear, as individualized as your fingerprints
+Membrane against which the "Stapes" pushes
+The Auditory Canal is an air channel that leads to this membrane
+Snail-like coiled chamber housing auditory receptor cells
+Also called "eardrum"
+Question 2: HINT: Read through entire paragraph before responding!
+In the central chamber (Scala Media) of the cochlea lies the [Zonules of Zinn, Organ of Corti, Nodes of Ranvier] - the location at which sound is transduced into neurological signals. The floor of this structure is called the [Basilar Membrane, Tympanic Membrane, Tectorial Membrane] while the ceiling is called the [Basilar membrane, Tympanic Membrane, Tectorial Membrane]. The auditory receptor cells, called [A1 cells, Hair Cells, Spiral Gaglions], stand between these two membranes. When the vibrating ossicles press on the membrane called the [Round Window, Oval Window], this sets up a vibration in the [Cochlear Fluid, CSF] that fills the cochlea. As that vibration moves through the cochlea, from Base to Apex and back, the [Tectorial Membrane, Basilar Membrane, Tympanic Membrane] moves up when the [Tectorial Membrane, Basilar Membrane, Tympanic Membrane] moves down, bending the [Axons, Cillia] of the receptor cells in between. This deformation of the [Hair Cells, Cochlear Nucleus Cells, Spiral Ganglions] causes [K+, Ca++, Na+, Cl-] to flow into those cells, which [Increases, Decreases] the polarity of that cell. Ultimately, this causes [K+, Ca++, Na+, Cl-] to enter, and, as a result, [Cochlear Fluid, Neurotransmitter, Neurotrophin] is released, in [an Action Potential, a Graded Potential].
+Question 3: Indicate whether the following are TRUE or FALSE in regards to Place Coding for frequency in audition.
+A) Place coding depends on the physical structure of the Basilar Membrane [True, False]
+B) The apex end of the membrane is narrow and stiff [True, False]
+C) The beginning of the membrane, near the Oval Window, is wide and floppy [True, False]
+D) Because of its structure, different places along the membrane resonate to different frequencies [True, False]
+E) A given frequency will produce the highest level of NT release at the most resonating place along the membrane, with slightly less at adjacent places, and less & less the farther from the place of maximum resonance [True, False]
+F) Your nervous system only records the place of maximum resonance, to code for that frequency [True, False]
+Question 4: Indicate whether the following are TRUE or FALSE of Temporal (Rate) Coding for frequency in audition.
+A) Rate coding depends on the physical structure of the Tectorial Membrane [True, False]
+B) The entire active membrane tends to oscillate at the same rate as the incoming frequency [True, False]
+C) Even though some places along the membrane release more NT than others, whatever Hair Cells do fire, fire at the same rate [True, False]
+D) Hair Cells fire Action Potentials, and so their rate of firing is limited by their Refractory Period [True, False]
+E) The Spiral Ganglions overcome this Refractory Period limitation by taking turns, together producing an output along the Auditory Nerve that matches the incoming frequency [True, False]
+F) The "Volley Principle" argues that only if the ganglions are "phase locked" will they produce volleys of activity at a rate that matches the incoming frequency [True, False]
+
+
+Question 5: Localization makes use of the differences in a sound reaching the two ears. Match each type of difference with its localization functions below. Options are: Intensity Differences, Phase Differences, Timing Differences
+Via "Inter-Aural Time-Disparity Detectors"
+Works best for higher frequencies
+Concerns which ear is in the "head shadow"
+Works best for lower frequencies, but only in large-headed listeners
+Involves a race between "Onset" cells from the cochlear nucleus
+Concerns which ear is pressured by the condensation, and which by rarefaction of air molecules
+
+Question 6: Match the structure in the Monaural Auditory Pathway to its characteristics, below. Options are: Spiral Ganglions, Cochlear Nucleus, Outer Hair Cells, Inner Hair Cells
+Divergent connectivity, preserving details
+Axons form auditory portion of the 8th Cranial Nerve
+In Medulla, taking input from ganglions and transforming it into "Onset", "Build-Up", "Phaser", "Primary Like"
+Convergent connectivity, more like visual Rods than Cones
+Each side sends an "Onset" signal, in a race to the Superior Olive
+
+Question 7: Match the structure in the Binaural Auditory Pathway to its characteristics, below. Options are: Medial Geniculate Nucleus (MGN), Superior Olive, A2, A1, Inferior Colliculus, Wernicke's Area
+Midbrain structure that maps & tracks sound sources
+Primary Projection Area in the cortex for auditory information
+First binaural site; e.g. Compare arrival times of "onset" signals from the two Cochlear Nuclei
+Thalamic area that projects to Temporal Cortex
+Higher auditory cortex, specialized for recognizing speech sounds
+Cells in this area of auditory cortex respond more strongly to a changing, than a single, frequency
+
+Question 8: The following are auditory-system examples of what fundamental principle?
+In Place Coding, frequency in the Cochlea is coded as the relative volume of NT released, along a length of the Basilar Membrane.
+In Temporal ("Rate") Coding, frequency in the Cochlea is coded as the rate at which pulses of NT are released, along the entire active Basilar Membrane.
+As in the Volley Principle, while no Spiral Ganglion can, on its own, reproduce a 3kHz rhythm of NT release, a group of these cells, working in concert, can.
+Options:
+"Cells that Fire Together, Wire Together"
+"Across Fiber Coding"
+"Sarah the Ballerina has a helluva Cerebellum"
+
+Question 9: Indicate if the following are TRUE or FALSE of reception in the Vestibular System
+A) Hair cells produce action potentials [TRUE/FALSE]
+B) When potassium enters the Hair Cells, the cells become hypo-polarized [TRUE/FALSE]
+C) The Semi-Circular Canals register changes in tilt, relative to gravity [TRUE/FALSE]
+D) Hair cells show a spontaneous firing rate that is either increased or decreased by changes in a subject's motion [TRUE/FALSE]
+E) The Otolith Organs register change in rotation [TRUE/FALSE]
+
+Question 10 (1 pt)
+Indicate which of the following are stops along the Vestibular Pathway:
+Cerebellum
+MGN of Thalamus
+8th Cranial Nerve
+Superior Colliculus
+V1
+Medulla
+Red Nucleus of Tegmentum
+Optic Nerve
+Question 11 (1 pt)
+Which of the following is the best explanation for motion sickness:
+Only happens in a gravity-free environment
+From too rapid changes in polarity within the Vestibular System
+Inconsistent signals from the Visual and Vestibular systems
+Depends on the fact that both the auditory and vestibular system share the 8th cranial nerve
+Question 12 (1 pt)
+Indicate the Receptive Field size and Adaptation Rate for each type of Encapsulated Nerve Ending:
+Meissner's Corpuscles
+Ruffini Endings
+Pacinians
+Merkel's Discs
+Options:
+Large RF and Fast Adapting
+Small RF and Slow Adapting
+Small RF and Fast Adapting
+Large RF and Slow Adapting
+Question 13 (2 pts)
+[Temperature detection system question with multiple dropdowns about tepid/warm/cool water and receptor responses]
+
+Question 14 (1.5 pts)
+Indicate the correct match in regards to the Somatosensory Pathways:
+Cross-over within the spinal cord
+Damage to left cord results in loss of touch on ipsi-lateral side and pain on contra-lateral side
+First synapse in the medulla
+When a patient cannot feel temperature on one side and has no proprioception on the other
+Originates from encapsulated receptors
+Originates from thermo-receptors and nocicentors
+Options:
+Medial-Lemniscal
+Brown-Sequard
+Spinal-Thalamic
+
+
+Question 15 (2 pts)
+True/False about the Somatosensory Cortex:
+A) The "Penfield Map" is "topological'"
+B) S1 can be found along the Pre-Central Gyrus
+C) Cells with large receptive fields tend to make up disproportionally large areas of the cortex
+D) Primary somatosensory cortex lies in the parietal lobe
+E) The hands and mouth are the most magnified portions of the somatosensory map
+Question 16 (2 pts)
+True/False about the "Gate Theory" of endogenous pain reduction:
+A) Collateral branches of touch receptors excite inter-neurons that inhibit T cells along the pain pathway
+B) The PAG in the midbrain releases endorphins that ultimately lead to the stimulation of inhibitory inter-neurons in the spinal cord
+C) Axo-anxonal connections in the brain involve endorphins attaching to inhibitory receptor sites on the terminal buttons of Substance P cells
+D) Naloxone is an endorphin antagonist, decreasing the effectiveness of treatments such as acupuncture

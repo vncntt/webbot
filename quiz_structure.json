@@ -2,12 +2,8 @@
   {
     "id": "question_1813403_answer_9310",
     "name": "question_1813403_answer_9310",
-    "question": "Question text not found",
+    "question": "Match each auditoryreception structureto its characteristics, below.",
     "options": [
-      {
-        "value": "2770",
-        "text": "Cochlea"
-      },
       {
         "value": "8976",
         "text": "Pinna"
@@ -23,18 +19,18 @@
       {
         "value": "1544",
         "text": "Ossicles"
+      },
+      {
+        "value": "2770",
+        "text": "Cochlea"
       }
     ]
   },
   {
     "id": "question_1813403_answer_8381",
     "name": "question_1813403_answer_8381",
-    "question": "Question text not found",
+    "question": "Match each auditoryreception structureto its characteristics, below.",
     "options": [
-      {
-        "value": "2770",
-        "text": "Cochlea"
-      },
       {
         "value": "8976",
         "text": "Pinna"
@@ -50,18 +46,18 @@
       {
         "value": "1544",
         "text": "Ossicles"
+      },
+      {
+        "value": "2770",
+        "text": "Cochlea"
       }
     ]
   },
   {
     "id": "question_1813403_answer_7991",
     "name": "question_1813403_answer_7991",
-    "question": "Question text not found",
+    "question": "Match each auditoryreception structureto its characteristics, below.",
     "options": [
-      {
-        "value": "2770",
-        "text": "Cochlea"
-      },
       {
         "value": "8976",
         "text": "Pinna"
@@ -77,18 +73,18 @@
       {
         "value": "1544",
         "text": "Ossicles"
+      },
+      {
+        "value": "2770",
+        "text": "Cochlea"
       }
     ]
   },
   {
     "id": "question_1813403_answer_7618",
     "name": "question_1813403_answer_7618",
-    "question": "Question text not found",
+    "question": "Match each auditoryreception structureto its characteristics, below.",
     "options": [
-      {
-        "value": "2770",
-        "text": "Cochlea"
-      },
       {
         "value": "8976",
         "text": "Pinna"
@@ -104,18 +100,18 @@
       {
         "value": "1544",
         "text": "Ossicles"
+      },
+      {
+        "value": "2770",
+        "text": "Cochlea"
       }
     ]
   },
   {
     "id": "question_1813403_answer_6176",
     "name": "question_1813403_answer_6176",
-    "question": "Question text not found",
+    "question": "Match each auditoryreception structureto its characteristics, below.",
     "options": [
-      {
-        "value": "2770",
-        "text": "Cochlea"
-      },
       {
         "value": "8976",
         "text": "Pinna"
@@ -131,18 +127,18 @@
       {
         "value": "1544",
         "text": "Ossicles"
+      },
+      {
+        "value": "2770",
+        "text": "Cochlea"
       }
     ]
   },
   {
     "id": "question_1813403_answer_7914",
     "name": "question_1813403_answer_7914",
-    "question": "Question text not found",
+    "question": "Match each auditoryreception structureto its characteristics, below.",
     "options": [
-      {
-        "value": "2770",
-        "text": "Cochlea"
-      },
       {
         "value": "8976",
         "text": "Pinna"
@@ -158,6 +154,10 @@
       {
         "value": "1544",
         "text": "Ossicles"
+      },
+      {
+        "value": "2770",
+        "text": "Cochlea"
       }
     ]
   },
@@ -437,7 +437,7 @@
   {
     "id": null,
     "name": "question_1813405_5ad018655f709bbc25f55df282068edb",
-    "question": "Indicate whether the following are TRUE or FALSE in regards toPlace Codingfor frequency in audition.A)\u00a0 Place coding depends on the physical structure of the Basilar Membrane[ Select ][\"True\", \"False\"]B)\u00a0 The apex end of the membrane is narrow and stiff.[ Select ][\"True\", \"False\"]C)\u00a0 \u00a0The beginning of the membrane, near the Oval Window, is wide and floppy.[ Select ][\"True\", \"False\"]D) \u00a0 Because of its structure, different places along the membrane resonate to different frequencies.[ Select ][\"True\", \"False\"]E) \u00a0 A given frequency will produce the highest level of NT release at the most resonating place along the membrane, with slightly less at adjacent places, and less & less the farther from the place of maximum resonance.[ Select ][\"True\", \"False\"]F)\u00a0 \u00a0Your nervous system only records the place of maximum resonance, to code for that frequency.[ Select ][\"True\", \"False\"]",
+    "question": "Indicate whether the following are TRUE or FALSE in regards toPlace Codingfor frequency in audition.A)  Place coding depends on the physical structure of the Basilar Membrane[ Select ][\"True\", \"False\"]B)  The apex end of the membrane is narrow and stiff.[ Select ][\"True\", \"False\"]C)   The beginning of the membrane, near the Oval Window, is wide and floppy.[ Select ][\"True\", \"False\"]D)   Because of its structure, different places along the membrane resonate to different frequencies.[ Select ][\"True\", \"False\"]E)   A given frequency will produce the highest level of NT release at the most resonating place along the membrane, with slightly less at adjacent places, and less & less the farther from the place of maximum resonance.[ Select ][\"True\", \"False\"]F)   Your nervous system only records the place of maximum resonance, to code for that frequency.[ Select ][\"True\", \"False\"]",
     "options": [
       {
         "value": "4823",
@@ -452,7 +452,7 @@
   {
     "id": null,
     "name": "question_1813405_937eb83e457af3fbaaff567035188dc4",
-    "question": "Indicate whether the following are TRUE or FALSE in regards toPlace Codingfor frequency in audition.A)\u00a0 Place coding depends on the physical structure of the Basilar Membrane[ Select ][\"True\", \"False\"]B)\u00a0 The apex end of the membrane is narrow and stiff.[ Select ][\"True\", \"False\"]C)\u00a0 \u00a0The beginning of the membrane, near the Oval Window, is wide and floppy.[ Select ][\"True\", \"False\"]D) \u00a0 Because of its structure, different places along the membrane resonate to different frequencies.[ Select ][\"True\", \"False\"]E) \u00a0 A given frequency will produce the highest level of NT release at the most resonating place along the membrane, with slightly less at adjacent places, and less & less the farther from the place of maximum resonance.[ Select ][\"True\", \"False\"]F)\u00a0 \u00a0Your nervous system only records the place of maximum resonance, to code for that frequency.[ Select ][\"True\", \"False\"]",
+    "question": "Indicate whether the following are TRUE or FALSE in regards toPlace Codingfor frequency in audition.A)  Place coding depends on the physical structure of the Basilar Membrane[ Select ][\"True\", \"False\"]B)  The apex end of the membrane is narrow and stiff.[ Select ][\"True\", \"False\"]C)   The beginning of the membrane, near the Oval Window, is wide and floppy.[ Select ][\"True\", \"False\"]D)   Because of its structure, different places along the membrane resonate to different frequencies.[ Select ][\"True\", \"False\"]E)   A given frequency will produce the highest level of NT release at the most resonating place along the membrane, with slightly less at adjacent places, and less & less the farther from the place of maximum resonance.[ Select ][\"True\", \"False\"]F)   Your nervous system only records the place of maximum resonance, to code for that frequency.[ Select ][\"True\", \"False\"]",
     "options": [
       {
         "value": "1433",
@@ -467,7 +467,7 @@
   {
     "id": null,
     "name": "question_1813405_a3f9c3d0a562083f6f0a783da8421946",
-    "question": "Indicate whether the following are TRUE or FALSE in regards toPlace Codingfor frequency in audition.A)\u00a0 Place coding depends on the physical structure of the Basilar Membrane[ Select ][\"True\", \"False\"]B)\u00a0 The apex end of the membrane is narrow and stiff.[ Select ][\"True\", \"False\"]C)\u00a0 \u00a0The beginning of the membrane, near the Oval Window, is wide and floppy.[ Select ][\"True\", \"False\"]D) \u00a0 Because of its structure, different places along the membrane resonate to different frequencies.[ Select ][\"True\", \"False\"]E) \u00a0 A given frequency will produce the highest level of NT release at the most resonating place along the membrane, with slightly less at adjacent places, and less & less the farther from the place of maximum resonance.[ Select ][\"True\", \"False\"]F)\u00a0 \u00a0Your nervous system only records the place of maximum resonance, to code for that frequency.[ Select ][\"True\", \"False\"]",
+    "question": "Indicate whether the following are TRUE or FALSE in regards toPlace Codingfor frequency in audition.A)  Place coding depends on the physical structure of the Basilar Membrane[ Select ][\"True\", \"False\"]B)  The apex end of the membrane is narrow and stiff.[ Select ][\"True\", \"False\"]C)   The beginning of the membrane, near the Oval Window, is wide and floppy.[ Select ][\"True\", \"False\"]D)   Because of its structure, different places along the membrane resonate to different frequencies.[ Select ][\"True\", \"False\"]E)   A given frequency will produce the highest level of NT release at the most resonating place along the membrane, with slightly less at adjacent places, and less & less the farther from the place of maximum resonance.[ Select ][\"True\", \"False\"]F)   Your nervous system only records the place of maximum resonance, to code for that frequency.[ Select ][\"True\", \"False\"]",
     "options": [
       {
         "value": "9565",
@@ -482,7 +482,7 @@
   {
     "id": null,
     "name": "question_1813405_3abc5b346f55e29da18d730b5237530d",
-    "question": "Indicate whether the following are TRUE or FALSE in regards toPlace Codingfor frequency in audition.A)\u00a0 Place coding depends on the physical structure of the Basilar Membrane[ Select ][\"True\", \"False\"]B)\u00a0 The apex end of the membrane is narrow and stiff.[ Select ][\"True\", \"False\"]C)\u00a0 \u00a0The beginning of the membrane, near the Oval Window, is wide and floppy.[ Select ][\"True\", \"False\"]D) \u00a0 Because of its structure, different places along the membrane resonate to different frequencies.[ Select ][\"True\", \"False\"]E) \u00a0 A given frequency will produce the highest level of NT release at the most resonating place along the membrane, with slightly less at adjacent places, and less & less the farther from the place of maximum resonance.[ Select ][\"True\", \"False\"]F)\u00a0 \u00a0Your nervous system only records the place of maximum resonance, to code for that frequency.[ Select ][\"True\", \"False\"]",
+    "question": "Indicate whether the following are TRUE or FALSE in regards toPlace Codingfor frequency in audition.A)  Place coding depends on the physical structure of the Basilar Membrane[ Select ][\"True\", \"False\"]B)  The apex end of the membrane is narrow and stiff.[ Select ][\"True\", \"False\"]C)   The beginning of the membrane, near the Oval Window, is wide and floppy.[ Select ][\"True\", \"False\"]D)   Because of its structure, different places along the membrane resonate to different frequencies.[ Select ][\"True\", \"False\"]E)   A given frequency will produce the highest level of NT release at the most resonating place along the membrane, with slightly less at adjacent places, and less & less the farther from the place of maximum resonance.[ Select ][\"True\", \"False\"]F)   Your nervous system only records the place of maximum resonance, to code for that frequency.[ Select ][\"True\", \"False\"]",
     "options": [
       {
         "value": "7632",
@@ -497,7 +497,7 @@
   {
     "id": null,
     "name": "question_1813405_92087adc9b3840357336018f24f2a485",
-    "question": "Indicate whether the following are TRUE or FALSE in regards toPlace Codingfor frequency in audition.A)\u00a0 Place coding depends on the physical structure of the Basilar Membrane[ Select ][\"True\", \"False\"]B)\u00a0 The apex end of the membrane is narrow and stiff.[ Select ][\"True\", \"False\"]C)\u00a0 \u00a0The beginning of the membrane, near the Oval Window, is wide and floppy.[ Select ][\"True\", \"False\"]D) \u00a0 Because of its structure, different places along the membrane resonate to different frequencies.[ Select ][\"True\", \"False\"]E) \u00a0 A given frequency will produce the highest level of NT release at the most resonating place along the membrane, with slightly less at adjacent places, and less & less the farther from the place of maximum resonance.[ Select ][\"True\", \"False\"]F)\u00a0 \u00a0Your nervous system only records the place of maximum resonance, to code for that frequency.[ Select ][\"True\", \"False\"]",
+    "question": "Indicate whether the following are TRUE or FALSE in regards toPlace Codingfor frequency in audition.A)  Place coding depends on the physical structure of the Basilar Membrane[ Select ][\"True\", \"False\"]B)  The apex end of the membrane is narrow and stiff.[ Select ][\"True\", \"False\"]C)   The beginning of the membrane, near the Oval Window, is wide and floppy.[ Select ][\"True\", \"False\"]D)   Because of its structure, different places along the membrane resonate to different frequencies.[ Select ][\"True\", \"False\"]E)   A given frequency will produce the highest level of NT release at the most resonating place along the membrane, with slightly less at adjacent places, and less & less the farther from the place of maximum resonance.[ Select ][\"True\", \"False\"]F)   Your nervous system only records the place of maximum resonance, to code for that frequency.[ Select ][\"True\", \"False\"]",
     "options": [
       {
         "value": "2025",
@@ -512,7 +512,7 @@
   {
     "id": null,
     "name": "question_1813405_29fe0c8d14af354ef5e772c36e9c2041",
-    "question": "Indicate whether the following are TRUE or FALSE in regards toPlace Codingfor frequency in audition.A)\u00a0 Place coding depends on the physical structure of the Basilar Membrane[ Select ][\"True\", \"False\"]B)\u00a0 The apex end of the membrane is narrow and stiff.[ Select ][\"True\", \"False\"]C)\u00a0 \u00a0The beginning of the membrane, near the Oval Window, is wide and floppy.[ Select ][\"True\", \"False\"]D) \u00a0 Because of its structure, different places along the membrane resonate to different frequencies.[ Select ][\"True\", \"False\"]E) \u00a0 A given frequency will produce the highest level of NT release at the most resonating place along the membrane, with slightly less at adjacent places, and less & less the farther from the place of maximum resonance.[ Select ][\"True\", \"False\"]F)\u00a0 \u00a0Your nervous system only records the place of maximum resonance, to code for that frequency.[ Select ][\"True\", \"False\"]",
+    "question": "Indicate whether the following are TRUE or FALSE in regards toPlace Codingfor frequency in audition.A)  Place coding depends on the physical structure of the Basilar Membrane[ Select ][\"True\", \"False\"]B)  The apex end of the membrane is narrow and stiff.[ Select ][\"True\", \"False\"]C)   The beginning of the membrane, near the Oval Window, is wide and floppy.[ Select ][\"True\", \"False\"]D)   Because of its structure, different places along the membrane resonate to different frequencies.[ Select ][\"True\", \"False\"]E)   A given frequency will produce the highest level of NT release at the most resonating place along the membrane, with slightly less at adjacent places, and less & less the farther from the place of maximum resonance.[ Select ][\"True\", \"False\"]F)   Your nervous system only records the place of maximum resonance, to code for that frequency.[ Select ][\"True\", \"False\"]",
     "options": [
       {
         "value": "7925",
@@ -527,7 +527,7 @@
   {
     "id": null,
     "name": "question_1813406_5ad018655f709bbc25f55df282068edb",
-    "question": "Indicate whether the following are TRUE or FALSE ofTemporal (Rate) Codingfor frequency in audition.A)\u00a0 Rate coding depends on the physical structure of the Tectorial Membrane[ Select ][\"True\", \"False\"]B)\u00a0 The entire active membrane tends to oscillate at the same rate as the incoming frequency.[ Select ][\"True\", \"False\"]C)\u00a0 \u00a0Even though some places along the membrane release more NT than others, whatever Hair Cells do fire, fire at the same rate.[ Select ][\"True\", \"False\"]D) \u00a0 Hair Cells fire Action Potentials, and so their rate of firing is limited by their Refractory Period.[ Select ][\"True\", \"False\"]E) \u00a0 The Spiral Ganglions overcome this Refractory Period limitation by taking turns, together producing an output along the Auditory Nerve that matches the incoming frequency.[ Select ][\"True\", \"False\"]F)\u00a0 The \"Volley Principle\" argues that only if the ganglions are \"phase locked\" will they produce a volleys of activity at a rate that matches the incoming frequency.[ Select ][\"True\", \"False\"]",
+    "question": "Indicate whether the following are TRUE or FALSE ofTemporal (Rate) Codingfor frequency in audition.A)  Rate coding depends on the physical structure of the Tectorial Membrane[ Select ][\"True\", \"False\"]B)  The entire active membrane tends to oscillate at the same rate as the incoming frequency.[ Select ][\"True\", \"False\"]C)   Even though some places along the membrane release more NT than others, whatever Hair Cells do fire, fire at the same rate.[ Select ][\"True\", \"False\"]D)   Hair Cells fire Action Potentials, and so their rate of firing is limited by their Refractory Period.[ Select ][\"True\", \"False\"]E)   The Spiral Ganglions overcome this Refractory Period limitation by taking turns, together producing an output along the Auditory Nerve that matches the incoming frequency.[ Select ][\"True\", \"False\"]F)  The \"Volley Principle\" argues that only if the ganglions are \"phase locked\" will they produce a volleys of activity at a rate that matches the incoming frequency.[ Select ][\"True\", \"False\"]",
     "options": [
       {
         "value": "641",
@@ -542,7 +542,7 @@
   {
     "id": null,
     "name": "question_1813406_937eb83e457af3fbaaff567035188dc4",
-    "question": "Indicate whether the following are TRUE or FALSE ofTemporal (Rate) Codingfor frequency in audition.A)\u00a0 Rate coding depends on the physical structure of the Tectorial Membrane[ Select ][\"True\", \"False\"]B)\u00a0 The entire active membrane tends to oscillate at the same rate as the incoming frequency.[ Select ][\"True\", \"False\"]C)\u00a0 \u00a0Even though some places along the membrane release more NT than others, whatever Hair Cells do fire, fire at the same rate.[ Select ][\"True\", \"False\"]D) \u00a0 Hair Cells fire Action Potentials, and so their rate of firing is limited by their Refractory Period.[ Select ][\"True\", \"False\"]E) \u00a0 The Spiral Ganglions overcome this Refractory Period limitation by taking turns, together producing an output along the Auditory Nerve that matches the incoming frequency.[ Select ][\"True\", \"False\"]F)\u00a0 The \"Volley Principle\" argues that only if the ganglions are \"phase locked\" will they produce a volleys of activity at a rate that matches the incoming frequency.[ Select ][\"True\", \"False\"]",
+    "question": "Indicate whether the following are TRUE or FALSE ofTemporal (Rate) Codingfor frequency in audition.A)  Rate coding depends on the physical structure of the Tectorial Membrane[ Select ][\"True\", \"False\"]B)  The entire active membrane tends to oscillate at the same rate as the incoming frequency.[ Select ][\"True\", \"False\"]C)   Even though some places along the membrane release more NT than others, whatever Hair Cells do fire, fire at the same rate.[ Select ][\"True\", \"False\"]D)   Hair Cells fire Action Potentials, and so their rate of firing is limited by their Refractory Period.[ Select ][\"True\", \"False\"]E)   The Spiral Ganglions overcome this Refractory Period limitation by taking turns, together producing an output along the Auditory Nerve that matches the incoming frequency.[ Select ][\"True\", \"False\"]F)  The \"Volley Principle\" argues that only if the ganglions are \"phase locked\" will they produce a volleys of activity at a rate that matches the incoming frequency.[ Select ][\"True\", \"False\"]",
     "options": [
       {
         "value": "6271",
@@ -557,7 +557,7 @@
   {
     "id": null,
     "name": "question_1813406_a3f9c3d0a562083f6f0a783da8421946",
-    "question": "Indicate whether the following are TRUE or FALSE ofTemporal (Rate) Codingfor frequency in audition.A)\u00a0 Rate coding depends on the physical structure of the Tectorial Membrane[ Select ][\"True\", \"False\"]B)\u00a0 The entire active membrane tends to oscillate at the same rate as the incoming frequency.[ Select ][\"True\", \"False\"]C)\u00a0 \u00a0Even though some places along the membrane release more NT than others, whatever Hair Cells do fire, fire at the same rate.[ Select ][\"True\", \"False\"]D) \u00a0 Hair Cells fire Action Potentials, and so their rate of firing is limited by their Refractory Period.[ Select ][\"True\", \"False\"]E) \u00a0 The Spiral Ganglions overcome this Refractory Period limitation by taking turns, together producing an output along the Auditory Nerve that matches the incoming frequency.[ Select ][\"True\", \"False\"]F)\u00a0 The \"Volley Principle\" argues that only if the ganglions are \"phase locked\" will they produce a volleys of activity at a rate that matches the incoming frequency.[ Select ][\"True\", \"False\"]",
+    "question": "Indicate whether the following are TRUE or FALSE ofTemporal (Rate) Codingfor frequency in audition.A)  Rate coding depends on the physical structure of the Tectorial Membrane[ Select ][\"True\", \"False\"]B)  The entire active membrane tends to oscillate at the same rate as the incoming frequency.[ Select ][\"True\", \"False\"]C)   Even though some places along the membrane release more NT than others, whatever Hair Cells do fire, fire at the same rate.[ Select ][\"True\", \"False\"]D)   Hair Cells fire Action Potentials, and so their rate of firing is limited by their Refractory Period.[ Select ][\"True\", \"False\"]E)   The Spiral Ganglions overcome this Refractory Period limitation by taking turns, together producing an output along the Auditory Nerve that matches the incoming frequency.[ Select ][\"True\", \"False\"]F)  The \"Volley Principle\" argues that only if the ganglions are \"phase locked\" will they produce a volleys of activity at a rate that matches the incoming frequency.[ Select ][\"True\", \"False\"]",
     "options": [
       {
         "value": "9968",
@@ -572,7 +572,7 @@
   {
     "id": null,
     "name": "question_1813406_3abc5b346f55e29da18d730b5237530d",
-    "question": "Indicate whether the following are TRUE or FALSE ofTemporal (Rate) Codingfor frequency in audition.A)\u00a0 Rate coding depends on the physical structure of the Tectorial Membrane[ Select ][\"True\", \"False\"]B)\u00a0 The entire active membrane tends to oscillate at the same rate as the incoming frequency.[ Select ][\"True\", \"False\"]C)\u00a0 \u00a0Even though some places along the membrane release more NT than others, whatever Hair Cells do fire, fire at the same rate.[ Select ][\"True\", \"False\"]D) \u00a0 Hair Cells fire Action Potentials, and so their rate of firing is limited by their Refractory Period.[ Select ][\"True\", \"False\"]E) \u00a0 The Spiral Ganglions overcome this Refractory Period limitation by taking turns, together producing an output along the Auditory Nerve that matches the incoming frequency.[ Select ][\"True\", \"False\"]F)\u00a0 The \"Volley Principle\" argues that only if the ganglions are \"phase locked\" will they produce a volleys of activity at a rate that matches the incoming frequency.[ Select ][\"True\", \"False\"]",
+    "question": "Indicate whether the following are TRUE or FALSE ofTemporal (Rate) Codingfor frequency in audition.A)  Rate coding depends on the physical structure of the Tectorial Membrane[ Select ][\"True\", \"False\"]B)  The entire active membrane tends to oscillate at the same rate as the incoming frequency.[ Select ][\"True\", \"False\"]C)   Even though some places along the membrane release more NT than others, whatever Hair Cells do fire, fire at the same rate.[ Select ][\"True\", \"False\"]D)   Hair Cells fire Action Potentials, and so their rate of firing is limited by their Refractory Period.[ Select ][\"True\", \"False\"]E)   The Spiral Ganglions overcome this Refractory Period limitation by taking turns, together producing an output along the Auditory Nerve that matches the incoming frequency.[ Select ][\"True\", \"False\"]F)  The \"Volley Principle\" argues that only if the ganglions are \"phase locked\" will they produce a volleys of activity at a rate that matches the incoming frequency.[ Select ][\"True\", \"False\"]",
     "options": [
       {
         "value": "940",
@@ -587,7 +587,7 @@
   {
     "id": null,
     "name": "question_1813406_92087adc9b3840357336018f24f2a485",
-    "question": "Indicate whether the following are TRUE or FALSE ofTemporal (Rate) Codingfor frequency in audition.A)\u00a0 Rate coding depends on the physical structure of the Tectorial Membrane[ Select ][\"True\", \"False\"]B)\u00a0 The entire active membrane tends to oscillate at the same rate as the incoming frequency.[ Select ][\"True\", \"False\"]C)\u00a0 \u00a0Even though some places along the membrane release more NT than others, whatever Hair Cells do fire, fire at the same rate.[ Select ][\"True\", \"False\"]D) \u00a0 Hair Cells fire Action Potentials, and so their rate of firing is limited by their Refractory Period.[ Select ][\"True\", \"False\"]E) \u00a0 The Spiral Ganglions overcome this Refractory Period limitation by taking turns, together producing an output along the Auditory Nerve that matches the incoming frequency.[ Select ][\"True\", \"False\"]F)\u00a0 The \"Volley Principle\" argues that only if the ganglions are \"phase locked\" will they produce a volleys of activity at a rate that matches the incoming frequency.[ Select ][\"True\", \"False\"]",
+    "question": "Indicate whether the following are TRUE or FALSE ofTemporal (Rate) Codingfor frequency in audition.A)  Rate coding depends on the physical structure of the Tectorial Membrane[ Select ][\"True\", \"False\"]B)  The entire active membrane tends to oscillate at the same rate as the incoming frequency.[ Select ][\"True\", \"False\"]C)   Even though some places along the membrane release more NT than others, whatever Hair Cells do fire, fire at the same rate.[ Select ][\"True\", \"False\"]D)   Hair Cells fire Action Potentials, and so their rate of firing is limited by their Refractory Period.[ Select ][\"True\", \"False\"]E)   The Spiral Ganglions overcome this Refractory Period limitation by taking turns, together producing an output along the Auditory Nerve that matches the incoming frequency.[ Select ][\"True\", \"False\"]F)  The \"Volley Principle\" argues that only if the ganglions are \"phase locked\" will they produce a volleys of activity at a rate that matches the incoming frequency.[ Select ][\"True\", \"False\"]",
     "options": [
       {
         "value": "9628",
@@ -602,7 +602,7 @@
   {
     "id": null,
     "name": "question_1813406_29fe0c8d14af354ef5e772c36e9c2041",
-    "question": "Indicate whether the following are TRUE or FALSE ofTemporal (Rate) Codingfor frequency in audition.A)\u00a0 Rate coding depends on the physical structure of the Tectorial Membrane[ Select ][\"True\", \"False\"]B)\u00a0 The entire active membrane tends to oscillate at the same rate as the incoming frequency.[ Select ][\"True\", \"False\"]C)\u00a0 \u00a0Even though some places along the membrane release more NT than others, whatever Hair Cells do fire, fire at the same rate.[ Select ][\"True\", \"False\"]D) \u00a0 Hair Cells fire Action Potentials, and so their rate of firing is limited by their Refractory Period.[ Select ][\"True\", \"False\"]E) \u00a0 The Spiral Ganglions overcome this Refractory Period limitation by taking turns, together producing an output along the Auditory Nerve that matches the incoming frequency.[ Select ][\"True\", \"False\"]F)\u00a0 The \"Volley Principle\" argues that only if the ganglions are \"phase locked\" will they produce a volleys of activity at a rate that matches the incoming frequency.[ Select ][\"True\", \"False\"]",
+    "question": "Indicate whether the following are TRUE or FALSE ofTemporal (Rate) Codingfor frequency in audition.A)  Rate coding depends on the physical structure of the Tectorial Membrane[ Select ][\"True\", \"False\"]B)  The entire active membrane tends to oscillate at the same rate as the incoming frequency.[ Select ][\"True\", \"False\"]C)   Even though some places along the membrane release more NT than others, whatever Hair Cells do fire, fire at the same rate.[ Select ][\"True\", \"False\"]D)   Hair Cells fire Action Potentials, and so their rate of firing is limited by their Refractory Period.[ Select ][\"True\", \"False\"]E)   The Spiral Ganglions overcome this Refractory Period limitation by taking turns, together producing an output along the Auditory Nerve that matches the incoming frequency.[ Select ][\"True\", \"False\"]F)  The \"Volley Principle\" argues that only if the ganglions are \"phase locked\" will they produce a volleys of activity at a rate that matches the incoming frequency.[ Select ][\"True\", \"False\"]",
     "options": [
       {
         "value": "5451",
@@ -617,15 +617,15 @@
   {
     "id": "question_1813407_answer_5590",
     "name": "question_1813407_answer_5590",
-    "question": "Question text not found",
+    "question": "Localizationmakes use of the differences in a sound reaching the two ears. Match each type of difference with its localization functions below.",
     "options": [
-      {
-        "value": "8646",
-        "text": "Intensity Differences"
-      },
       {
         "value": "4924",
         "text": "Phase Differences"
+      },
+      {
+        "value": "8646",
+        "text": "Intensity Differences"
       },
       {
         "value": "5483",
@@ -636,15 +636,15 @@
   {
     "id": "question_1813407_answer_5747",
     "name": "question_1813407_answer_5747",
-    "question": "Question text not found",
+    "question": "Localizationmakes use of the differences in a sound reaching the two ears. Match each type of difference with its localization functions below.",
     "options": [
-      {
-        "value": "8646",
-        "text": "Intensity Differences"
-      },
       {
         "value": "4924",
         "text": "Phase Differences"
+      },
+      {
+        "value": "8646",
+        "text": "Intensity Differences"
       },
       {
         "value": "5483",
@@ -655,15 +655,15 @@
   {
     "id": "question_1813407_answer_790",
     "name": "question_1813407_answer_790",
-    "question": "Question text not found",
+    "question": "Localizationmakes use of the differences in a sound reaching the two ears. Match each type of difference with its localization functions below.",
     "options": [
-      {
-        "value": "8646",
-        "text": "Intensity Differences"
-      },
       {
         "value": "4924",
         "text": "Phase Differences"
+      },
+      {
+        "value": "8646",
+        "text": "Intensity Differences"
       },
       {
         "value": "5483",
@@ -674,15 +674,15 @@
   {
     "id": "question_1813407_answer_4255",
     "name": "question_1813407_answer_4255",
-    "question": "Question text not found",
+    "question": "Localizationmakes use of the differences in a sound reaching the two ears. Match each type of difference with its localization functions below.",
     "options": [
-      {
-        "value": "8646",
-        "text": "Intensity Differences"
-      },
       {
         "value": "4924",
         "text": "Phase Differences"
+      },
+      {
+        "value": "8646",
+        "text": "Intensity Differences"
       },
       {
         "value": "5483",
@@ -693,15 +693,15 @@
   {
     "id": "question_1813407_answer_5296",
     "name": "question_1813407_answer_5296",
-    "question": "Question text not found",
+    "question": "Localizationmakes use of the differences in a sound reaching the two ears. Match each type of difference with its localization functions below.",
     "options": [
-      {
-        "value": "8646",
-        "text": "Intensity Differences"
-      },
       {
         "value": "4924",
         "text": "Phase Differences"
+      },
+      {
+        "value": "8646",
+        "text": "Intensity Differences"
       },
       {
         "value": "5483",
@@ -712,15 +712,15 @@
   {
     "id": "question_1813407_answer_8931",
     "name": "question_1813407_answer_8931",
-    "question": "Question text not found",
+    "question": "Localizationmakes use of the differences in a sound reaching the two ears. Match each type of difference with its localization functions below.",
     "options": [
-      {
-        "value": "8646",
-        "text": "Intensity Differences"
-      },
       {
         "value": "4924",
         "text": "Phase Differences"
+      },
+      {
+        "value": "8646",
+        "text": "Intensity Differences"
       },
       {
         "value": "5483",
@@ -731,19 +731,19 @@
   {
     "id": "question_1813408_answer_1226",
     "name": "question_1813408_answer_1226",
-    "question": "Question text not found",
+    "question": "Match the structure in theMonaural Auditory Pathwayto its characteristics, below.",
     "options": [
       {
         "value": "1415",
         "text": "Spiral Ganglions"
       },
       {
-        "value": "659",
-        "text": "Cochlear Nucleus"
-      },
-      {
         "value": "9238",
         "text": "Outer Hair Cells"
+      },
+      {
+        "value": "659",
+        "text": "Cochlear Nucleus"
       },
       {
         "value": "5260",
@@ -754,19 +754,19 @@
   {
     "id": "question_1813408_answer_4573",
     "name": "question_1813408_answer_4573",
-    "question": "Question text not found",
+    "question": "Match the structure in theMonaural Auditory Pathwayto its characteristics, below.",
     "options": [
       {
         "value": "1415",
         "text": "Spiral Ganglions"
       },
       {
-        "value": "659",
-        "text": "Cochlear Nucleus"
-      },
-      {
         "value": "9238",
         "text": "Outer Hair Cells"
+      },
+      {
+        "value": "659",
+        "text": "Cochlear Nucleus"
       },
       {
         "value": "5260",
@@ -777,19 +777,19 @@
   {
     "id": "question_1813408_answer_3337",
     "name": "question_1813408_answer_3337",
-    "question": "Question text not found",
+    "question": "Match the structure in theMonaural Auditory Pathwayto its characteristics, below.",
     "options": [
       {
         "value": "1415",
         "text": "Spiral Ganglions"
       },
       {
-        "value": "659",
-        "text": "Cochlear Nucleus"
-      },
-      {
         "value": "9238",
         "text": "Outer Hair Cells"
+      },
+      {
+        "value": "659",
+        "text": "Cochlear Nucleus"
       },
       {
         "value": "5260",
@@ -800,19 +800,19 @@
   {
     "id": "question_1813408_answer_2704",
     "name": "question_1813408_answer_2704",
-    "question": "Question text not found",
+    "question": "Match the structure in theMonaural Auditory Pathwayto its characteristics, below.",
     "options": [
       {
         "value": "1415",
         "text": "Spiral Ganglions"
       },
       {
-        "value": "659",
-        "text": "Cochlear Nucleus"
-      },
-      {
         "value": "9238",
         "text": "Outer Hair Cells"
+      },
+      {
+        "value": "659",
+        "text": "Cochlear Nucleus"
       },
       {
         "value": "5260",
@@ -823,19 +823,19 @@
   {
     "id": "question_1813408_answer_4976",
     "name": "question_1813408_answer_4976",
-    "question": "Question text not found",
+    "question": "Match the structure in theMonaural Auditory Pathwayto its characteristics, below.",
     "options": [
       {
         "value": "1415",
         "text": "Spiral Ganglions"
       },
       {
-        "value": "659",
-        "text": "Cochlear Nucleus"
-      },
-      {
         "value": "9238",
         "text": "Outer Hair Cells"
+      },
+      {
+        "value": "659",
+        "text": "Cochlear Nucleus"
       },
       {
         "value": "5260",
@@ -846,24 +846,8 @@
   {
     "id": "question_1813409_answer_4925",
     "name": "question_1813409_answer_4925",
-    "question": "Question text not found",
+    "question": "Match the structure in theBinaural Auditory Pathwayto its characteristics, below.",
     "options": [
-      {
-        "value": "4087",
-        "text": "Medial Geniculate Nucleus (MGN)"
-      },
-      {
-        "value": "9008",
-        "text": "Superior Olive"
-      },
-      {
-        "value": "6911",
-        "text": "A2"
-      },
-      {
-        "value": "1495",
-        "text": "A1"
-      },
       {
         "value": "9362",
         "text": "Inferior Colliculus"
@@ -871,30 +855,30 @@
       {
         "value": "6489",
         "text": "Wernicke's Area"
+      },
+      {
+        "value": "1495",
+        "text": "A1"
+      },
+      {
+        "value": "6911",
+        "text": "A2"
+      },
+      {
+        "value": "9008",
+        "text": "Superior Olive"
+      },
+      {
+        "value": "4087",
+        "text": "Medial Geniculate Nucleus (MGN)"
       }
     ]
   },
   {
     "id": "question_1813409_answer_7742",
     "name": "question_1813409_answer_7742",
-    "question": "Question text not found",
+    "question": "Match the structure in theBinaural Auditory Pathwayto its characteristics, below.",
     "options": [
-      {
-        "value": "4087",
-        "text": "Medial Geniculate Nucleus (MGN)"
-      },
-      {
-        "value": "9008",
-        "text": "Superior Olive"
-      },
-      {
-        "value": "6911",
-        "text": "A2"
-      },
-      {
-        "value": "1495",
-        "text": "A1"
-      },
       {
         "value": "9362",
         "text": "Inferior Colliculus"
@@ -902,30 +886,30 @@
       {
         "value": "6489",
         "text": "Wernicke's Area"
+      },
+      {
+        "value": "1495",
+        "text": "A1"
+      },
+      {
+        "value": "6911",
+        "text": "A2"
+      },
+      {
+        "value": "9008",
+        "text": "Superior Olive"
+      },
+      {
+        "value": "4087",
+        "text": "Medial Geniculate Nucleus (MGN)"
       }
     ]
   },
   {
     "id": "question_1813409_answer_6705",
     "name": "question_1813409_answer_6705",
-    "question": "Question text not found",
+    "question": "Match the structure in theBinaural Auditory Pathwayto its characteristics, below.",
     "options": [
-      {
-        "value": "4087",
-        "text": "Medial Geniculate Nucleus (MGN)"
-      },
-      {
-        "value": "9008",
-        "text": "Superior Olive"
-      },
-      {
-        "value": "6911",
-        "text": "A2"
-      },
-      {
-        "value": "1495",
-        "text": "A1"
-      },
       {
         "value": "9362",
         "text": "Inferior Colliculus"
@@ -933,30 +917,30 @@
       {
         "value": "6489",
         "text": "Wernicke's Area"
+      },
+      {
+        "value": "1495",
+        "text": "A1"
+      },
+      {
+        "value": "6911",
+        "text": "A2"
+      },
+      {
+        "value": "9008",
+        "text": "Superior Olive"
+      },
+      {
+        "value": "4087",
+        "text": "Medial Geniculate Nucleus (MGN)"
       }
     ]
   },
   {
     "id": "question_1813409_answer_3061",
     "name": "question_1813409_answer_3061",
-    "question": "Question text not found",
+    "question": "Match the structure in theBinaural Auditory Pathwayto its characteristics, below.",
     "options": [
-      {
-        "value": "4087",
-        "text": "Medial Geniculate Nucleus (MGN)"
-      },
-      {
-        "value": "9008",
-        "text": "Superior Olive"
-      },
-      {
-        "value": "6911",
-        "text": "A2"
-      },
-      {
-        "value": "1495",
-        "text": "A1"
-      },
       {
         "value": "9362",
         "text": "Inferior Colliculus"
@@ -964,30 +948,30 @@
       {
         "value": "6489",
         "text": "Wernicke's Area"
+      },
+      {
+        "value": "1495",
+        "text": "A1"
+      },
+      {
+        "value": "6911",
+        "text": "A2"
+      },
+      {
+        "value": "9008",
+        "text": "Superior Olive"
+      },
+      {
+        "value": "4087",
+        "text": "Medial Geniculate Nucleus (MGN)"
       }
     ]
   },
   {
     "id": "question_1813409_answer_4739",
     "name": "question_1813409_answer_4739",
-    "question": "Question text not found",
+    "question": "Match the structure in theBinaural Auditory Pathwayto its characteristics, below.",
     "options": [
-      {
-        "value": "4087",
-        "text": "Medial Geniculate Nucleus (MGN)"
-      },
-      {
-        "value": "9008",
-        "text": "Superior Olive"
-      },
-      {
-        "value": "6911",
-        "text": "A2"
-      },
-      {
-        "value": "1495",
-        "text": "A1"
-      },
       {
         "value": "9362",
         "text": "Inferior Colliculus"
@@ -995,30 +979,30 @@
       {
         "value": "6489",
         "text": "Wernicke's Area"
+      },
+      {
+        "value": "1495",
+        "text": "A1"
+      },
+      {
+        "value": "6911",
+        "text": "A2"
+      },
+      {
+        "value": "9008",
+        "text": "Superior Olive"
+      },
+      {
+        "value": "4087",
+        "text": "Medial Geniculate Nucleus (MGN)"
       }
     ]
   },
   {
     "id": "question_1813409_answer_911",
     "name": "question_1813409_answer_911",
-    "question": "Question text not found",
+    "question": "Match the structure in theBinaural Auditory Pathwayto its characteristics, below.",
     "options": [
-      {
-        "value": "4087",
-        "text": "Medial Geniculate Nucleus (MGN)"
-      },
-      {
-        "value": "9008",
-        "text": "Superior Olive"
-      },
-      {
-        "value": "6911",
-        "text": "A2"
-      },
-      {
-        "value": "1495",
-        "text": "A1"
-      },
       {
         "value": "9362",
         "text": "Inferior Colliculus"
@@ -1026,13 +1010,29 @@
       {
         "value": "6489",
         "text": "Wernicke's Area"
+      },
+      {
+        "value": "1495",
+        "text": "A1"
+      },
+      {
+        "value": "6911",
+        "text": "A2"
+      },
+      {
+        "value": "9008",
+        "text": "Superior Olive"
+      },
+      {
+        "value": "4087",
+        "text": "Medial Geniculate Nucleus (MGN)"
       }
     ]
   },
   {
     "id": null,
     "name": "question_1813411_5ad018655f709bbc25f55df282068edb",
-    "question": "Indicate if the following are TRUE or FALSE of reception in the Vestibular SystemA)\u00a0 Hair cells produce action potentials.[ Select ][\"TRUE\", \"FALSE\"]B)\u00a0 When potassium enters the Hair Cells, the cells become hypo-polarized.[ Select ][\"TRUE\", \"FALSE\"]C)\u00a0 The Semi-Circular Canals register changes in tilt, relative to gravity.[ Select ][\"TRUE\", \"FALSE\"]D)\u00a0 Hair cells show a spontaneous firing rate that is either increased or decreased by changes in a subject's motion.[ Select ][\"TRUE\", \"FALSE\"]E)\u00a0 The Otolith Organs register change in rotation.[ Select ][\"TRUE\", \"FALSE\"]",
+    "question": "Indicate if the following are TRUE or FALSE of reception in the Vestibular SystemA)  Hair cells produce action potentials.[ Select ][\"TRUE\", \"FALSE\"]B)  When potassium enters the Hair Cells, the cells become hypo-polarized.[ Select ][\"TRUE\", \"FALSE\"]C)  The Semi-Circular Canals register changes in tilt, relative to gravity.[ Select ][\"TRUE\", \"FALSE\"]D)  Hair cells show a spontaneous firing rate that is either increased or decreased by changes in a subject's motion.[ Select ][\"TRUE\", \"FALSE\"]E)  The Otolith Organs register change in rotation.[ Select ][\"TRUE\", \"FALSE\"]",
     "options": [
       {
         "value": "6032",
@@ -1047,7 +1047,7 @@
   {
     "id": null,
     "name": "question_1813411_937eb83e457af3fbaaff567035188dc4",
-    "question": "Indicate if the following are TRUE or FALSE of reception in the Vestibular SystemA)\u00a0 Hair cells produce action potentials.[ Select ][\"TRUE\", \"FALSE\"]B)\u00a0 When potassium enters the Hair Cells, the cells become hypo-polarized.[ Select ][\"TRUE\", \"FALSE\"]C)\u00a0 The Semi-Circular Canals register changes in tilt, relative to gravity.[ Select ][\"TRUE\", \"FALSE\"]D)\u00a0 Hair cells show a spontaneous firing rate that is either increased or decreased by changes in a subject's motion.[ Select ][\"TRUE\", \"FALSE\"]E)\u00a0 The Otolith Organs register change in rotation.[ Select ][\"TRUE\", \"FALSE\"]",
+    "question": "Indicate if the following are TRUE or FALSE of reception in the Vestibular SystemA)  Hair cells produce action potentials.[ Select ][\"TRUE\", \"FALSE\"]B)  When potassium enters the Hair Cells, the cells become hypo-polarized.[ Select ][\"TRUE\", \"FALSE\"]C)  The Semi-Circular Canals register changes in tilt, relative to gravity.[ Select ][\"TRUE\", \"FALSE\"]D)  Hair cells show a spontaneous firing rate that is either increased or decreased by changes in a subject's motion.[ Select ][\"TRUE\", \"FALSE\"]E)  The Otolith Organs register change in rotation.[ Select ][\"TRUE\", \"FALSE\"]",
     "options": [
       {
         "value": "1049",
@@ -1062,7 +1062,7 @@
   {
     "id": null,
     "name": "question_1813411_a3f9c3d0a562083f6f0a783da8421946",
-    "question": "Indicate if the following are TRUE or FALSE of reception in the Vestibular SystemA)\u00a0 Hair cells produce action potentials.[ Select ][\"TRUE\", \"FALSE\"]B)\u00a0 When potassium enters the Hair Cells, the cells become hypo-polarized.[ Select ][\"TRUE\", \"FALSE\"]C)\u00a0 The Semi-Circular Canals register changes in tilt, relative to gravity.[ Select ][\"TRUE\", \"FALSE\"]D)\u00a0 Hair cells show a spontaneous firing rate that is either increased or decreased by changes in a subject's motion.[ Select ][\"TRUE\", \"FALSE\"]E)\u00a0 The Otolith Organs register change in rotation.[ Select ][\"TRUE\", \"FALSE\"]",
+    "question": "Indicate if the following are TRUE or FALSE of reception in the Vestibular SystemA)  Hair cells produce action potentials.[ Select ][\"TRUE\", \"FALSE\"]B)  When potassium enters the Hair Cells, the cells become hypo-polarized.[ Select ][\"TRUE\", \"FALSE\"]C)  The Semi-Circular Canals register changes in tilt, relative to gravity.[ Select ][\"TRUE\", \"FALSE\"]D)  Hair cells show a spontaneous firing rate that is either increased or decreased by changes in a subject's motion.[ Select ][\"TRUE\", \"FALSE\"]E)  The Otolith Organs register change in rotation.[ Select ][\"TRUE\", \"FALSE\"]",
     "options": [
       {
         "value": "8149",
@@ -1077,7 +1077,7 @@
   {
     "id": null,
     "name": "question_1813411_92087adc9b3840357336018f24f2a485",
-    "question": "Indicate if the following are TRUE or FALSE of reception in the Vestibular SystemA)\u00a0 Hair cells produce action potentials.[ Select ][\"TRUE\", \"FALSE\"]B)\u00a0 When potassium enters the Hair Cells, the cells become hypo-polarized.[ Select ][\"TRUE\", \"FALSE\"]C)\u00a0 The Semi-Circular Canals register changes in tilt, relative to gravity.[ Select ][\"TRUE\", \"FALSE\"]D)\u00a0 Hair cells show a spontaneous firing rate that is either increased or decreased by changes in a subject's motion.[ Select ][\"TRUE\", \"FALSE\"]E)\u00a0 The Otolith Organs register change in rotation.[ Select ][\"TRUE\", \"FALSE\"]",
+    "question": "Indicate if the following are TRUE or FALSE of reception in the Vestibular SystemA)  Hair cells produce action potentials.[ Select ][\"TRUE\", \"FALSE\"]B)  When potassium enters the Hair Cells, the cells become hypo-polarized.[ Select ][\"TRUE\", \"FALSE\"]C)  The Semi-Circular Canals register changes in tilt, relative to gravity.[ Select ][\"TRUE\", \"FALSE\"]D)  Hair cells show a spontaneous firing rate that is either increased or decreased by changes in a subject's motion.[ Select ][\"TRUE\", \"FALSE\"]E)  The Otolith Organs register change in rotation.[ Select ][\"TRUE\", \"FALSE\"]",
     "options": [
       {
         "value": "2387",
@@ -1092,7 +1092,7 @@
   {
     "id": null,
     "name": "question_1813411_29fe0c8d14af354ef5e772c36e9c2041",
-    "question": "Indicate if the following are TRUE or FALSE of reception in the Vestibular SystemA)\u00a0 Hair cells produce action potentials.[ Select ][\"TRUE\", \"FALSE\"]B)\u00a0 When potassium enters the Hair Cells, the cells become hypo-polarized.[ Select ][\"TRUE\", \"FALSE\"]C)\u00a0 The Semi-Circular Canals register changes in tilt, relative to gravity.[ Select ][\"TRUE\", \"FALSE\"]D)\u00a0 Hair cells show a spontaneous firing rate that is either increased or decreased by changes in a subject's motion.[ Select ][\"TRUE\", \"FALSE\"]E)\u00a0 The Otolith Organs register change in rotation.[ Select ][\"TRUE\", \"FALSE\"]",
+    "question": "Indicate if the following are TRUE or FALSE of reception in the Vestibular SystemA)  Hair cells produce action potentials.[ Select ][\"TRUE\", \"FALSE\"]B)  When potassium enters the Hair Cells, the cells become hypo-polarized.[ Select ][\"TRUE\", \"FALSE\"]C)  The Semi-Circular Canals register changes in tilt, relative to gravity.[ Select ][\"TRUE\", \"FALSE\"]D)  Hair cells show a spontaneous firing rate that is either increased or decreased by changes in a subject's motion.[ Select ][\"TRUE\", \"FALSE\"]E)  The Otolith Organs register change in rotation.[ Select ][\"TRUE\", \"FALSE\"]",
     "options": [
       {
         "value": "6967",
@@ -1100,6 +1100,537 @@
       },
       {
         "value": "3738",
+        "text": "FALSE"
+      }
+    ]
+  },
+  {
+    "id": "question_1813414_answer_5599",
+    "name": "question_1813414_answer_5599",
+    "question": "Indicate theReceptive Field sizeandAdaptation Ratefor each type of Encapsulated NerveEnding, below.",
+    "options": [
+      {
+        "value": "2296",
+        "text": "Large RF and Fast Adapting"
+      },
+      {
+        "value": "9135",
+        "text": "Small RF and Slow Adapting"
+      },
+      {
+        "value": "599",
+        "text": "Small RF and Fast Adapting"
+      },
+      {
+        "value": "4594",
+        "text": "Large RF and Slow Adapting"
+      }
+    ]
+  },
+  {
+    "id": "question_1813414_answer_2942",
+    "name": "question_1813414_answer_2942",
+    "question": "Indicate theReceptive Field sizeandAdaptation Ratefor each type of Encapsulated NerveEnding, below.",
+    "options": [
+      {
+        "value": "2296",
+        "text": "Large RF and Fast Adapting"
+      },
+      {
+        "value": "9135",
+        "text": "Small RF and Slow Adapting"
+      },
+      {
+        "value": "599",
+        "text": "Small RF and Fast Adapting"
+      },
+      {
+        "value": "4594",
+        "text": "Large RF and Slow Adapting"
+      }
+    ]
+  },
+  {
+    "id": "question_1813414_answer_6960",
+    "name": "question_1813414_answer_6960",
+    "question": "Indicate theReceptive Field sizeandAdaptation Ratefor each type of Encapsulated NerveEnding, below.",
+    "options": [
+      {
+        "value": "2296",
+        "text": "Large RF and Fast Adapting"
+      },
+      {
+        "value": "9135",
+        "text": "Small RF and Slow Adapting"
+      },
+      {
+        "value": "599",
+        "text": "Small RF and Fast Adapting"
+      },
+      {
+        "value": "4594",
+        "text": "Large RF and Slow Adapting"
+      }
+    ]
+  },
+  {
+    "id": "question_1813414_answer_2136",
+    "name": "question_1813414_answer_2136",
+    "question": "Indicate theReceptive Field sizeandAdaptation Ratefor each type of Encapsulated NerveEnding, below.",
+    "options": [
+      {
+        "value": "2296",
+        "text": "Large RF and Fast Adapting"
+      },
+      {
+        "value": "9135",
+        "text": "Small RF and Slow Adapting"
+      },
+      {
+        "value": "599",
+        "text": "Small RF and Fast Adapting"
+      },
+      {
+        "value": "4594",
+        "text": "Large RF and Slow Adapting"
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "question_1813415_5ad018655f709bbc25f55df282068edb",
+    "question": "HINT: Read through entire paragraph before responding!In thetemperature detectionsystem, if you place your hand in[ Select ][\"tepid\", \"warm\", \"cool\"]water it will feel neither hot nor cold, since that water will produce an[ Select ][\"inqual\", \"equal\", \"greatly reduced\", \"greatly increased\"]response from[ Select ][\"Warm-Best\", \"Cool-Best\", \"both\"]receptors. Water that is cooler will be encoded as[ Select ][\"WB > CB\", \"WB < CB\", \"WB = CB\"]while water that is warmer will be encoded as[ Select ][\"WB > CB\", \"WB < CB\", \"WB = CB\"]. If you selectively adapt the[ Select ][\"Warm-Best\", \"Cool-Best\"]receptors by prolonged emersion in[ Select ][\"tepid\", \"hot\", \"cold\"]water, and thereafter place that hand in[ Select ][\"tepid\", \"hot\", \"cold\"]water, that water will feel warmer than it did originally. This is because[ Select ][\"the Warm-Best\", \"the Cool-Best\", \"both types of\"]receptors are not able to make their normal contribution to the[ Select ][\"\"selective adaptation\"\", \"\"across-fiber coding\"\", \"\"free nerve endings\"\"]necessary to represent any given temperature.",
+    "options": [
+      {
+        "value": "3868",
+        "text": "tepid"
+      },
+      {
+        "value": "9813",
+        "text": "warm"
+      },
+      {
+        "value": "6044",
+        "text": "cool"
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "question_1813415_937eb83e457af3fbaaff567035188dc4",
+    "question": "HINT: Read through entire paragraph before responding!In thetemperature detectionsystem, if you place your hand in[ Select ][\"tepid\", \"warm\", \"cool\"]water it will feel neither hot nor cold, since that water will produce an[ Select ][\"inqual\", \"equal\", \"greatly reduced\", \"greatly increased\"]response from[ Select ][\"Warm-Best\", \"Cool-Best\", \"both\"]receptors. Water that is cooler will be encoded as[ Select ][\"WB > CB\", \"WB < CB\", \"WB = CB\"]while water that is warmer will be encoded as[ Select ][\"WB > CB\", \"WB < CB\", \"WB = CB\"]. If you selectively adapt the[ Select ][\"Warm-Best\", \"Cool-Best\"]receptors by prolonged emersion in[ Select ][\"tepid\", \"hot\", \"cold\"]water, and thereafter place that hand in[ Select ][\"tepid\", \"hot\", \"cold\"]water, that water will feel warmer than it did originally. This is because[ Select ][\"the Warm-Best\", \"the Cool-Best\", \"both types of\"]receptors are not able to make their normal contribution to the[ Select ][\"\"selective adaptation\"\", \"\"across-fiber coding\"\", \"\"free nerve endings\"\"]necessary to represent any given temperature.",
+    "options": [
+      {
+        "value": "1710",
+        "text": "inqual"
+      },
+      {
+        "value": "2019",
+        "text": "equal"
+      },
+      {
+        "value": "8818",
+        "text": "greatly reduced"
+      },
+      {
+        "value": "6537",
+        "text": "greatly increased"
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "question_1813415_a3f9c3d0a562083f6f0a783da8421946",
+    "question": "HINT: Read through entire paragraph before responding!In thetemperature detectionsystem, if you place your hand in[ Select ][\"tepid\", \"warm\", \"cool\"]water it will feel neither hot nor cold, since that water will produce an[ Select ][\"inqual\", \"equal\", \"greatly reduced\", \"greatly increased\"]response from[ Select ][\"Warm-Best\", \"Cool-Best\", \"both\"]receptors. Water that is cooler will be encoded as[ Select ][\"WB > CB\", \"WB < CB\", \"WB = CB\"]while water that is warmer will be encoded as[ Select ][\"WB > CB\", \"WB < CB\", \"WB = CB\"]. If you selectively adapt the[ Select ][\"Warm-Best\", \"Cool-Best\"]receptors by prolonged emersion in[ Select ][\"tepid\", \"hot\", \"cold\"]water, and thereafter place that hand in[ Select ][\"tepid\", \"hot\", \"cold\"]water, that water will feel warmer than it did originally. This is because[ Select ][\"the Warm-Best\", \"the Cool-Best\", \"both types of\"]receptors are not able to make their normal contribution to the[ Select ][\"\"selective adaptation\"\", \"\"across-fiber coding\"\", \"\"free nerve endings\"\"]necessary to represent any given temperature.",
+    "options": [
+      {
+        "value": "8768",
+        "text": "Warm-Best"
+      },
+      {
+        "value": "8965",
+        "text": "Cool-Best"
+      },
+      {
+        "value": "2280",
+        "text": "both"
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "question_1813415_3abc5b346f55e29da18d730b5237530d",
+    "question": "HINT: Read through entire paragraph before responding!In thetemperature detectionsystem, if you place your hand in[ Select ][\"tepid\", \"warm\", \"cool\"]water it will feel neither hot nor cold, since that water will produce an[ Select ][\"inqual\", \"equal\", \"greatly reduced\", \"greatly increased\"]response from[ Select ][\"Warm-Best\", \"Cool-Best\", \"both\"]receptors. Water that is cooler will be encoded as[ Select ][\"WB > CB\", \"WB < CB\", \"WB = CB\"]while water that is warmer will be encoded as[ Select ][\"WB > CB\", \"WB < CB\", \"WB = CB\"]. If you selectively adapt the[ Select ][\"Warm-Best\", \"Cool-Best\"]receptors by prolonged emersion in[ Select ][\"tepid\", \"hot\", \"cold\"]water, and thereafter place that hand in[ Select ][\"tepid\", \"hot\", \"cold\"]water, that water will feel warmer than it did originally. This is because[ Select ][\"the Warm-Best\", \"the Cool-Best\", \"both types of\"]receptors are not able to make their normal contribution to the[ Select ][\"\"selective adaptation\"\", \"\"across-fiber coding\"\", \"\"free nerve endings\"\"]necessary to represent any given temperature.",
+    "options": [
+      {
+        "value": "3784",
+        "text": "WB > CB"
+      },
+      {
+        "value": "2227",
+        "text": "WB < CB"
+      },
+      {
+        "value": "271",
+        "text": "WB = CB"
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "question_1813415_92087adc9b3840357336018f24f2a485",
+    "question": "HINT: Read through entire paragraph before responding!In thetemperature detectionsystem, if you place your hand in[ Select ][\"tepid\", \"warm\", \"cool\"]water it will feel neither hot nor cold, since that water will produce an[ Select ][\"inqual\", \"equal\", \"greatly reduced\", \"greatly increased\"]response from[ Select ][\"Warm-Best\", \"Cool-Best\", \"both\"]receptors. Water that is cooler will be encoded as[ Select ][\"WB > CB\", \"WB < CB\", \"WB = CB\"]while water that is warmer will be encoded as[ Select ][\"WB > CB\", \"WB < CB\", \"WB = CB\"]. If you selectively adapt the[ Select ][\"Warm-Best\", \"Cool-Best\"]receptors by prolonged emersion in[ Select ][\"tepid\", \"hot\", \"cold\"]water, and thereafter place that hand in[ Select ][\"tepid\", \"hot\", \"cold\"]water, that water will feel warmer than it did originally. This is because[ Select ][\"the Warm-Best\", \"the Cool-Best\", \"both types of\"]receptors are not able to make their normal contribution to the[ Select ][\"\"selective adaptation\"\", \"\"across-fiber coding\"\", \"\"free nerve endings\"\"]necessary to represent any given temperature.",
+    "options": [
+      {
+        "value": "6608",
+        "text": "WB > CB"
+      },
+      {
+        "value": "5998",
+        "text": "WB < CB"
+      },
+      {
+        "value": "4058",
+        "text": "WB = CB"
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "question_1813415_29fe0c8d14af354ef5e772c36e9c2041",
+    "question": "HINT: Read through entire paragraph before responding!In thetemperature detectionsystem, if you place your hand in[ Select ][\"tepid\", \"warm\", \"cool\"]water it will feel neither hot nor cold, since that water will produce an[ Select ][\"inqual\", \"equal\", \"greatly reduced\", \"greatly increased\"]response from[ Select ][\"Warm-Best\", \"Cool-Best\", \"both\"]receptors. Water that is cooler will be encoded as[ Select ][\"WB > CB\", \"WB < CB\", \"WB = CB\"]while water that is warmer will be encoded as[ Select ][\"WB > CB\", \"WB < CB\", \"WB = CB\"]. If you selectively adapt the[ Select ][\"Warm-Best\", \"Cool-Best\"]receptors by prolonged emersion in[ Select ][\"tepid\", \"hot\", \"cold\"]water, and thereafter place that hand in[ Select ][\"tepid\", \"hot\", \"cold\"]water, that water will feel warmer than it did originally. This is because[ Select ][\"the Warm-Best\", \"the Cool-Best\", \"both types of\"]receptors are not able to make their normal contribution to the[ Select ][\"\"selective adaptation\"\", \"\"across-fiber coding\"\", \"\"free nerve endings\"\"]necessary to represent any given temperature.",
+    "options": [
+      {
+        "value": "8229",
+        "text": "Warm-Best"
+      },
+      {
+        "value": "3495",
+        "text": "Cool-Best"
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "question_1813415_27c764b2072d0df94f469000f8fb2040",
+    "question": "HINT: Read through entire paragraph before responding!In thetemperature detectionsystem, if you place your hand in[ Select ][\"tepid\", \"warm\", \"cool\"]water it will feel neither hot nor cold, since that water will produce an[ Select ][\"inqual\", \"equal\", \"greatly reduced\", \"greatly increased\"]response from[ Select ][\"Warm-Best\", \"Cool-Best\", \"both\"]receptors. Water that is cooler will be encoded as[ Select ][\"WB > CB\", \"WB < CB\", \"WB = CB\"]while water that is warmer will be encoded as[ Select ][\"WB > CB\", \"WB < CB\", \"WB = CB\"]. If you selectively adapt the[ Select ][\"Warm-Best\", \"Cool-Best\"]receptors by prolonged emersion in[ Select ][\"tepid\", \"hot\", \"cold\"]water, and thereafter place that hand in[ Select ][\"tepid\", \"hot\", \"cold\"]water, that water will feel warmer than it did originally. This is because[ Select ][\"the Warm-Best\", \"the Cool-Best\", \"both types of\"]receptors are not able to make their normal contribution to the[ Select ][\"\"selective adaptation\"\", \"\"across-fiber coding\"\", \"\"free nerve endings\"\"]necessary to represent any given temperature.",
+    "options": [
+      {
+        "value": "828",
+        "text": "tepid"
+      },
+      {
+        "value": "2689",
+        "text": "hot"
+      },
+      {
+        "value": "6371",
+        "text": "cold"
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "question_1813415_eee27b885c5fde38de5a014216a13bb2",
+    "question": "HINT: Read through entire paragraph before responding!In thetemperature detectionsystem, if you place your hand in[ Select ][\"tepid\", \"warm\", \"cool\"]water it will feel neither hot nor cold, since that water will produce an[ Select ][\"inqual\", \"equal\", \"greatly reduced\", \"greatly increased\"]response from[ Select ][\"Warm-Best\", \"Cool-Best\", \"both\"]receptors. Water that is cooler will be encoded as[ Select ][\"WB > CB\", \"WB < CB\", \"WB = CB\"]while water that is warmer will be encoded as[ Select ][\"WB > CB\", \"WB < CB\", \"WB = CB\"]. If you selectively adapt the[ Select ][\"Warm-Best\", \"Cool-Best\"]receptors by prolonged emersion in[ Select ][\"tepid\", \"hot\", \"cold\"]water, and thereafter place that hand in[ Select ][\"tepid\", \"hot\", \"cold\"]water, that water will feel warmer than it did originally. This is because[ Select ][\"the Warm-Best\", \"the Cool-Best\", \"both types of\"]receptors are not able to make their normal contribution to the[ Select ][\"\"selective adaptation\"\", \"\"across-fiber coding\"\", \"\"free nerve endings\"\"]necessary to represent any given temperature.",
+    "options": [
+      {
+        "value": "6130",
+        "text": "tepid"
+      },
+      {
+        "value": "7701",
+        "text": "hot"
+      },
+      {
+        "value": "4994",
+        "text": "cold"
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "question_1813415_85f899fcbb8e5f474a59d574860f2849",
+    "question": "HINT: Read through entire paragraph before responding!In thetemperature detectionsystem, if you place your hand in[ Select ][\"tepid\", \"warm\", \"cool\"]water it will feel neither hot nor cold, since that water will produce an[ Select ][\"inqual\", \"equal\", \"greatly reduced\", \"greatly increased\"]response from[ Select ][\"Warm-Best\", \"Cool-Best\", \"both\"]receptors. Water that is cooler will be encoded as[ Select ][\"WB > CB\", \"WB < CB\", \"WB = CB\"]while water that is warmer will be encoded as[ Select ][\"WB > CB\", \"WB < CB\", \"WB = CB\"]. If you selectively adapt the[ Select ][\"Warm-Best\", \"Cool-Best\"]receptors by prolonged emersion in[ Select ][\"tepid\", \"hot\", \"cold\"]water, and thereafter place that hand in[ Select ][\"tepid\", \"hot\", \"cold\"]water, that water will feel warmer than it did originally. This is because[ Select ][\"the Warm-Best\", \"the Cool-Best\", \"both types of\"]receptors are not able to make their normal contribution to the[ Select ][\"\"selective adaptation\"\", \"\"across-fiber coding\"\", \"\"free nerve endings\"\"]necessary to represent any given temperature.",
+    "options": [
+      {
+        "value": "6869",
+        "text": "the Warm-Best"
+      },
+      {
+        "value": "7898",
+        "text": "the Cool-Best"
+      },
+      {
+        "value": "5220",
+        "text": "both types of"
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "question_1813415_6e6aa422e9e92bcf71e8051100ef5d43",
+    "question": "HINT: Read through entire paragraph before responding!In thetemperature detectionsystem, if you place your hand in[ Select ][\"tepid\", \"warm\", \"cool\"]water it will feel neither hot nor cold, since that water will produce an[ Select ][\"inqual\", \"equal\", \"greatly reduced\", \"greatly increased\"]response from[ Select ][\"Warm-Best\", \"Cool-Best\", \"both\"]receptors. Water that is cooler will be encoded as[ Select ][\"WB > CB\", \"WB < CB\", \"WB = CB\"]while water that is warmer will be encoded as[ Select ][\"WB > CB\", \"WB < CB\", \"WB = CB\"]. If you selectively adapt the[ Select ][\"Warm-Best\", \"Cool-Best\"]receptors by prolonged emersion in[ Select ][\"tepid\", \"hot\", \"cold\"]water, and thereafter place that hand in[ Select ][\"tepid\", \"hot\", \"cold\"]water, that water will feel warmer than it did originally. This is because[ Select ][\"the Warm-Best\", \"the Cool-Best\", \"both types of\"]receptors are not able to make their normal contribution to the[ Select ][\"\"selective adaptation\"\", \"\"across-fiber coding\"\", \"\"free nerve endings\"\"]necessary to represent any given temperature.",
+    "options": [
+      {
+        "value": "9036",
+        "text": "selective adaptation"
+      },
+      {
+        "value": "5262",
+        "text": "across-fiber coding"
+      },
+      {
+        "value": "1226",
+        "text": "free nerve endings"
+      }
+    ]
+  },
+  {
+    "id": "question_1813416_answer_7895",
+    "name": "question_1813416_answer_7895",
+    "question": "Indicate the correct match in regards to the Somatosensory Pathways.",
+    "options": [
+      {
+        "value": "4983",
+        "text": "Medial-Lemniscal"
+      },
+      {
+        "value": "9847",
+        "text": "Brown-Sequard"
+      },
+      {
+        "value": "1520",
+        "text": "Spinal-Thalamic"
+      }
+    ]
+  },
+  {
+    "id": "question_1813416_answer_9576",
+    "name": "question_1813416_answer_9576",
+    "question": "Indicate the correct match in regards to the Somatosensory Pathways.",
+    "options": [
+      {
+        "value": "4983",
+        "text": "Medial-Lemniscal"
+      },
+      {
+        "value": "9847",
+        "text": "Brown-Sequard"
+      },
+      {
+        "value": "1520",
+        "text": "Spinal-Thalamic"
+      }
+    ]
+  },
+  {
+    "id": "question_1813416_answer_4680",
+    "name": "question_1813416_answer_4680",
+    "question": "Indicate the correct match in regards to the Somatosensory Pathways.",
+    "options": [
+      {
+        "value": "4983",
+        "text": "Medial-Lemniscal"
+      },
+      {
+        "value": "9847",
+        "text": "Brown-Sequard"
+      },
+      {
+        "value": "1520",
+        "text": "Spinal-Thalamic"
+      }
+    ]
+  },
+  {
+    "id": "question_1813416_answer_6731",
+    "name": "question_1813416_answer_6731",
+    "question": "Indicate the correct match in regards to the Somatosensory Pathways.",
+    "options": [
+      {
+        "value": "4983",
+        "text": "Medial-Lemniscal"
+      },
+      {
+        "value": "9847",
+        "text": "Brown-Sequard"
+      },
+      {
+        "value": "1520",
+        "text": "Spinal-Thalamic"
+      }
+    ]
+  },
+  {
+    "id": "question_1813416_answer_6183",
+    "name": "question_1813416_answer_6183",
+    "question": "Indicate the correct match in regards to the Somatosensory Pathways.",
+    "options": [
+      {
+        "value": "4983",
+        "text": "Medial-Lemniscal"
+      },
+      {
+        "value": "9847",
+        "text": "Brown-Sequard"
+      },
+      {
+        "value": "1520",
+        "text": "Spinal-Thalamic"
+      }
+    ]
+  },
+  {
+    "id": "question_1813416_answer_8579",
+    "name": "question_1813416_answer_8579",
+    "question": "Indicate the correct match in regards to the Somatosensory Pathways.",
+    "options": [
+      {
+        "value": "4983",
+        "text": "Medial-Lemniscal"
+      },
+      {
+        "value": "9847",
+        "text": "Brown-Sequard"
+      },
+      {
+        "value": "1520",
+        "text": "Spinal-Thalamic"
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "question_1813417_5ad018655f709bbc25f55df282068edb",
+    "question": "Indicate if the following are TRUE or FALSE of the Somatosensory Cortex.A) The \"Penfield Map\" is \"topological'\".[ Select ][\"TRUE\", \"FALSE\"]B) S1 can be found along the Pre-Central Gyrus.[ Select ][\"TRUE\", \"FALSE\"]C) Cells with large receptive fields tend to make up disproportionally large areas of the cortex.[ Select ][\"TRUE\", \"FALSE\"]D) Primary somatosensory cortex lies in the parietal lobe.[ Select ][\"TRUE\", \"FALSE\"]E) The hands and mouth are the most magnified portions of the somatosensory map.[ Select ][\"TRUE\", \"False\"]",
+    "options": [
+      {
+        "value": "8581",
+        "text": "TRUE"
+      },
+      {
+        "value": "6057",
+        "text": "FALSE"
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "question_1813417_937eb83e457af3fbaaff567035188dc4",
+    "question": "Indicate if the following are TRUE or FALSE of the Somatosensory Cortex.A) The \"Penfield Map\" is \"topological'\".[ Select ][\"TRUE\", \"FALSE\"]B) S1 can be found along the Pre-Central Gyrus.[ Select ][\"TRUE\", \"FALSE\"]C) Cells with large receptive fields tend to make up disproportionally large areas of the cortex.[ Select ][\"TRUE\", \"FALSE\"]D) Primary somatosensory cortex lies in the parietal lobe.[ Select ][\"TRUE\", \"FALSE\"]E) The hands and mouth are the most magnified portions of the somatosensory map.[ Select ][\"TRUE\", \"False\"]",
+    "options": [
+      {
+        "value": "3903",
+        "text": "TRUE"
+      },
+      {
+        "value": "2159",
+        "text": "FALSE"
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "question_1813417_a3f9c3d0a562083f6f0a783da8421946",
+    "question": "Indicate if the following are TRUE or FALSE of the Somatosensory Cortex.A) The \"Penfield Map\" is \"topological'\".[ Select ][\"TRUE\", \"FALSE\"]B) S1 can be found along the Pre-Central Gyrus.[ Select ][\"TRUE\", \"FALSE\"]C) Cells with large receptive fields tend to make up disproportionally large areas of the cortex.[ Select ][\"TRUE\", \"FALSE\"]D) Primary somatosensory cortex lies in the parietal lobe.[ Select ][\"TRUE\", \"FALSE\"]E) The hands and mouth are the most magnified portions of the somatosensory map.[ Select ][\"TRUE\", \"False\"]",
+    "options": [
+      {
+        "value": "1290",
+        "text": "TRUE"
+      },
+      {
+        "value": "9606",
+        "text": "FALSE"
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "question_1813417_3abc5b346f55e29da18d730b5237530d",
+    "question": "Indicate if the following are TRUE or FALSE of the Somatosensory Cortex.A) The \"Penfield Map\" is \"topological'\".[ Select ][\"TRUE\", \"FALSE\"]B) S1 can be found along the Pre-Central Gyrus.[ Select ][\"TRUE\", \"FALSE\"]C) Cells with large receptive fields tend to make up disproportionally large areas of the cortex.[ Select ][\"TRUE\", \"FALSE\"]D) Primary somatosensory cortex lies in the parietal lobe.[ Select ][\"TRUE\", \"FALSE\"]E) The hands and mouth are the most magnified portions of the somatosensory map.[ Select ][\"TRUE\", \"False\"]",
+    "options": [
+      {
+        "value": "1366",
+        "text": "TRUE"
+      },
+      {
+        "value": "1628",
+        "text": "FALSE"
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "question_1813417_92087adc9b3840357336018f24f2a485",
+    "question": "Indicate if the following are TRUE or FALSE of the Somatosensory Cortex.A) The \"Penfield Map\" is \"topological'\".[ Select ][\"TRUE\", \"FALSE\"]B) S1 can be found along the Pre-Central Gyrus.[ Select ][\"TRUE\", \"FALSE\"]C) Cells with large receptive fields tend to make up disproportionally large areas of the cortex.[ Select ][\"TRUE\", \"FALSE\"]D) Primary somatosensory cortex lies in the parietal lobe.[ Select ][\"TRUE\", \"FALSE\"]E) The hands and mouth are the most magnified portions of the somatosensory map.[ Select ][\"TRUE\", \"False\"]",
+    "options": [
+      {
+        "value": "395",
+        "text": "TRUE"
+      },
+      {
+        "value": "717",
+        "text": "False"
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "question_1813418_5ad018655f709bbc25f55df282068edb",
+    "question": "Indicate whether the following are TRUE or FALSE in regards to the \"Gate Theory.\" of endogenous pain reduction.A) Collateral branches of touch receptors excite inter-neurons that inhibit T cells along the pain pathway.[ Select ][\"TRUE\", \"FALSE\"]B) The PAG in the midbrain releases endorphins that ultimately lead to the stimulation of inhibitory inter-neurons in the spinal cord[ Select ][\"TRUE\", \"FALSE\"]C) Axo-anxonal connections in the brain involve endorphins attaching to inhibitory receptor sites on the terminal buttons of Substance P cells.[ Select ][\"TRUE\", \"FALSE\"]D) Naloxone is an endorphin antagonist, decreasing the effectiveness of treatments such as acupuncture.[ Select ][\"TRUE\", \"FALSE\"]",
+    "options": [
+      {
+        "value": "1649",
+        "text": "TRUE"
+      },
+      {
+        "value": "1518",
+        "text": "FALSE"
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "question_1813418_937eb83e457af3fbaaff567035188dc4",
+    "question": "Indicate whether the following are TRUE or FALSE in regards to the \"Gate Theory.\" of endogenous pain reduction.A) Collateral branches of touch receptors excite inter-neurons that inhibit T cells along the pain pathway.[ Select ][\"TRUE\", \"FALSE\"]B) The PAG in the midbrain releases endorphins that ultimately lead to the stimulation of inhibitory inter-neurons in the spinal cord[ Select ][\"TRUE\", \"FALSE\"]C) Axo-anxonal connections in the brain involve endorphins attaching to inhibitory receptor sites on the terminal buttons of Substance P cells.[ Select ][\"TRUE\", \"FALSE\"]D) Naloxone is an endorphin antagonist, decreasing the effectiveness of treatments such as acupuncture.[ Select ][\"TRUE\", \"FALSE\"]",
+    "options": [
+      {
+        "value": "8446",
+        "text": "TRUE"
+      },
+      {
+        "value": "9270",
+        "text": "FALSE"
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "question_1813418_a3f9c3d0a562083f6f0a783da8421946",
+    "question": "Indicate whether the following are TRUE or FALSE in regards to the \"Gate Theory.\" of endogenous pain reduction.A) Collateral branches of touch receptors excite inter-neurons that inhibit T cells along the pain pathway.[ Select ][\"TRUE\", \"FALSE\"]B) The PAG in the midbrain releases endorphins that ultimately lead to the stimulation of inhibitory inter-neurons in the spinal cord[ Select ][\"TRUE\", \"FALSE\"]C) Axo-anxonal connections in the brain involve endorphins attaching to inhibitory receptor sites on the terminal buttons of Substance P cells.[ Select ][\"TRUE\", \"FALSE\"]D) Naloxone is an endorphin antagonist, decreasing the effectiveness of treatments such as acupuncture.[ Select ][\"TRUE\", \"FALSE\"]",
+    "options": [
+      {
+        "value": "4348",
+        "text": "TRUE"
+      },
+      {
+        "value": "7964",
+        "text": "FALSE"
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "question_1813418_3abc5b346f55e29da18d730b5237530d",
+    "question": "Indicate whether the following are TRUE or FALSE in regards to the \"Gate Theory.\" of endogenous pain reduction.A) Collateral branches of touch receptors excite inter-neurons that inhibit T cells along the pain pathway.[ Select ][\"TRUE\", \"FALSE\"]B) The PAG in the midbrain releases endorphins that ultimately lead to the stimulation of inhibitory inter-neurons in the spinal cord[ Select ][\"TRUE\", \"FALSE\"]C) Axo-anxonal connections in the brain involve endorphins attaching to inhibitory receptor sites on the terminal buttons of Substance P cells.[ Select ][\"TRUE\", \"FALSE\"]D) Naloxone is an endorphin antagonist, decreasing the effectiveness of treatments such as acupuncture.[ Select ][\"TRUE\", \"FALSE\"]",
+    "options": [
+      {
+        "value": "9057",
+        "text": "TRUE"
+      },
+      {
+        "value": "3862",
         "text": "FALSE"
       }
     ]
