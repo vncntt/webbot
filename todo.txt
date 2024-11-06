@@ -1,2 +1,28 @@
-- multiple choice questions
+- (DONE) multiple choice questions 
+- selecting multiple choice in submitting_answers
 - multi-select questions
+- selecting multi-select questions in submitting_answers
+- 
+
+
+
+
+
+ok time to make this more robust:
+
+- i want to be able to input ONLY the url of the quiz and have it work.
+- for each quiz, it should make a new file for the quiz_num_source.html, quiz_num_answers.txt
+- have the canvas username and password stored somewhere
+
+
+
+
+workflow:
+run script which takes the quiz url as an argument ->
+opens up a new folder with the quiz number -> 
+clicks "take the quiz" button -> 
+saves the page source to quiz_num_source.html ->
+clicks "submit answers" button (first submission will just be to get the page source and not for any answers)->
+run parse_html.py on the page source to get the quiz structure and saves it to a json file in the folder->
+run the current main.py on the quiz_num_source.html to get the answers and saves it to quiz_num_answers.txt ->
+after all the answers are stored, run submit_answers.py to submit all the answers 

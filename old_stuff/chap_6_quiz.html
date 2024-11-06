@@ -1,0 +1,1347 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#182B49">
+  
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="apple-itunes-app" content="app-id=480883488">
+<link rel="manifest" href="/web-app-manifest/manifest.json">
+  <meta name="sentry-trace" content="57b75608dbeb48c7ae33cbf8519508b5-1e0819bf80864aef-0"/>
+  <title>Quiz: Homework 6_Control of Movement</title>
+
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Regular-bd03a2cc27.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Bold-cccb897485.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Italic-4eb103b4d1.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/no_variables/bundles/fonts-6ee09b0b2f.css" media="screen" />
+  <link rel="stylesheet" href="https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/b6d3989d9de73fe3ea38011d4fd91ed0/variables-7dd4b80918af0e0218ec0229e4bd5873.css" media="all" />
+  <link rel="stylesheet" href="https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_normal_contrast/bundles/common-37510c127f.css" media="all" />
+  <link rel="stylesheet" href="https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_normal_contrast/bundles/quizzes-baf2bff5db.css" media="screen" />
+  <link rel="stylesheet" href="https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_normal_contrast/bundles/tinymce-5fc893f669.css" media="screen" />
+  <link rel="apple-touch-icon" href="https://du11hjcvx0uqb.cloudfront.net/dist/images/apple-touch-icon-585e5d997d.png" />
+  <link rel="icon" type="image/x-icon" href="https://instructure-uploads.s3.amazonaws.com/account_131710000000000001/attachments/879/favicon.ico" />
+
+  <link rel="stylesheet" href="https://instructure-uploads.s3.amazonaws.com/account_131710000000000001/attachments/13315556/dp.css" media="all" />
+  
+  <script>if (navigator.userAgent.match(/(MSIE|Trident\/)/)) location.replace('/ie-is-not-supported.html')</script>
+  <script>
+    INST = {"environment":"production","allowMediaComments":true,"kalturaSettings":{"domain":"nv.instructuremedia.com","resource_domain":"nv.instructuremedia.com","rtmp_domain":"iad.rtmp.instructuremedia.com","partner_id":"9","subpartner_id":"0","player_ui_conf":"0","kcw_ui_conf":"0","upload_ui_conf":"0","max_file_size_bytes":534773760,"do_analytics":false,"hide_rte_button":false,"js_uploader":true},"disableGooglePreviews":true,"logPageViews":true,"editorButtons":[{"name":"YouTube","id":8,"favorite":false,"url":"https://www.edu-apps.org/lti_public_resources/?tool_id=youtube","icon_url":"https://www.edu-apps.org/assets/lti_public_resources/youtube_icon.png","canvas_icon_class":null,"width":560,"height":600,"use_tray":false,"on_by_default":false,"description":"\u003cp\u003eSearch publicly available YouTube videos. A new icon will show up in your course rich editor letting you search YouTube and click to embed videos in your course material.\u003c/p\u003e\n"},{"name":"Google Apps","id":50,"favorite":false,"url":"https://google-drive-lti-iad-prod.instructure.com/lti/rce-content-selection","icon_url":"https://google-drive-lti-iad-prod.instructure.com/icon.png","canvas_icon_class":null,"width":700,"height":600,"use_tray":false,"on_by_default":false,"description":"\u003cp\u003eAllows you to pull in documents from Google Drive to Canvas\u003c/p\u003e\n"},{"name":"Commons Favorites","id":93,"favorite":false,"url":"https://lor.instructure.com/api/lti/favorite-resources","icon_url":"https://lor.instructure.com/img/icon_commons.png","canvas_icon_class":null,"width":800,"height":400,"use_tray":true,"on_by_default":false,"description":"\u003cp\u003eFind and share course content\u003c/p\u003e\n"},{"name":"Insert a Wiley Resource","id":1569,"favorite":false,"url":"https://lti.education.wiley.com/wpng/api/v1/lti/resourcediscoverytool","icon_url":"https://education.wiley.com/assets/images/wp.svg","canvas_icon_class":null,"width":1160,"height":660,"use_tray":false,"on_by_default":false,"description":"\u003cp\u003eOutcomes-based learning.\u003c/p\u003e\n"},{"name":"Upload / Embed Image","id":3032,"favorite":false,"url":"https://uei.ciditools.com/","icon_url":"https://uei.ciditools.com/editorIcon.png","canvas_icon_class":null,"width":750,"height":600,"use_tray":false,"on_by_default":false,"description":"\u003cp\u003eImage upload and embed tool\u003c/p\u003e\n"},{"name":"Google Drive (LTI 1.3)","id":3649,"favorite":false,"url":"https://assignments.google.com/lti/e","icon_url":"https://www.gstatic.com/images/branding/product/1x/drive_2020q4_16dp.png","canvas_icon_class":null,"width":690,"height":530,"use_tray":false,"on_by_default":false,"description":"\u003cp\u003eCollect, analyze, and grade student work with Google Assignments\u003c/p\u003e\n"},{"name":"SAGE Vantage LTI 1.3 - editor_button","id":4034,"favorite":false,"url":"https://vantage.sagepub.com/lti1p3/tool/vylyDpl9FAf5YaiN","icon_url":"https://vantage.sagepub.com/images/sagent/Bird-blue-right.svg","canvas_icon_class":null,"width":1000,"height":1000,"use_tray":false,"on_by_default":false,"description":"\u003cp\u003eSAGE Vantage 1.3 Tool\u003c/p\u003e\n"},{"name":"FeedbackFruits","id":5465,"favorite":false,"url":"https://us-api.feedbackfruits.com/v1/lti/launch","icon_url":"https://us-api.feedbackfruits.com/assets/feedbackfruits-a14091228d18bee7a545e03e8875379669790caba70cddffb4b3df012ca31a9c.png","canvas_icon_class":null,"width":800,"height":600,"use_tray":false,"on_by_default":false,"description":"\u003cp\u003eTools to support teachers teaching\u003c/p\u003e\n"},{"name":"Embed Kaltura Media","id":5826,"favorite":true,"url":"https://canvaskaf.ucsd.edu","icon_url":"https://cdnsecakmi.kaltura.com/content/static/kalturalogo.png","canvas_icon_class":null,"width":800,"height":400,"use_tray":false,"on_by_default":false,"description":"\u003cp\u003eKaltura 1.3 is UC San Diego’s video delivery platform.\u003c/p\u003e\n"},{"name":"Pearson Links","id":5831,"favorite":false,"url":"https://interop.pearson.com/launch","icon_url":"https://www.pearson.com/us/content/dam/one-dot-com/one-dot-com/us/en/images/PearsonThumbprint-RGB-127x138.png/_jcr_content/renditions/cq5dam.web.1600.9600.png","canvas_icon_class":null,"width":800,"height":400,"use_tray":false,"on_by_default":false,"description":"\u003cp\u003eAccess Pearson\u003c/p\u003e\n"}]};
+    ENV = {"ASSET_HOST":"https://du11hjcvx0uqb.cloudfront.net","active_brand_config_json_url":"https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/b6d3989d9de73fe3ea38011d4fd91ed0/variables-7dd4b80918af0e0218ec0229e4bd5873.json","active_brand_config":{"md5":"b6d3989d9de73fe3ea38011d4fd91ed0","variables":{"ic-brand-primary":"#182B49","ic-brand-font-color-dark":"#000000","ic-link-color":"#066a96","ic-brand-button--primary-bgd":"#006a96","ic-brand-button--secondary-bgd":"#182b49","ic-brand-global-nav-bgd":"#182B49","ic-brand-global-nav-ic-icon-svg-fill":"#FFCD00","ic-brand-global-nav-ic-icon-svg-fill--active":"#006A96","ic-brand-global-nav-menu-item__text-color--active":"#182B49","ic-brand-global-nav-menu-item__badge-bgd":"#6E963B","ic-brand-global-nav-logo-bgd":"#182B49","ic-brand-watermark-opacity":"1","ic-brand-favicon":"https://instructure-uploads.s3.amazonaws.com/account_131710000000000001/attachments/879/favicon.ico","ic-brand-Login-body-bgd-color":"#006a96","ic-brand-Login-body-bgd-image":"https://instructure-uploads.s3.amazonaws.com/account_131710000000000001/attachments/880/ucsd-library.jpg","ic-brand-Login-body-bgd-shadow-color":"#AFA9A0","ic-brand-Login-Content-bgd-color":"#AFA9A0","ic-brand-Login-Content-border-color":"#AFA9A0","ic-brand-Login-Content-password-text-color":"#dddddd","ic-brand-Login-footer-link-color":"#dddddd","ic-brand-Login-footer-link-color-hover":"#cccccc","ic-brand-Login-instructure-logo":"#cccccc"},"share":false,"name":null,"created_at":"2024-10-25T11:50:27-07:00","js_overrides":"https://instructure-uploads.s3.amazonaws.com/account_131710000000000001/attachments/13388611/dp.js","css_overrides":"https://instructure-uploads.s3.amazonaws.com/account_131710000000000001/attachments/13315556/dp.css","mobile_js_overrides":"https://instructure-uploads.s3.amazonaws.com/account_131710000000000001/attachments/13315282/dp_app.js","mobile_css_overrides":"https://instructure-uploads.s3.amazonaws.com/account_131710000000000001/attachments/13315283/dp_app.css","parent_md5":null},"confetti_branding_enabled":false,"url_to_what_gets_loaded_inside_the_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/b6d3989d9de73fe3ea38011d4fd91ed0/variables-7dd4b80918af0e0218ec0229e4bd5873.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_normal_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-90e5ad1077.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/no_variables/bundles/fonts-6ee09b0b2f.css"],"url_for_high_contrast_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/default/variables-high_contrast-7dd4b80918af0e0218ec0229e4bd5873.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_high_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-795277483f.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/no_variables/bundles/fonts-6ee09b0b2f.css"],"current_user_id":"219752","current_user_global_id":"131710000000219752","current_user_heap_id":"uu-2-1e4814e22e0d8c10d44ad5900dca84253c5fe6db227fed6f16f401827edb41f5-YYzs3up2ikmNIyNSel3biohOBqVtaOJCALBEKdzq","current_user_roles":["user","student"],"current_user_is_student":true,"current_user_types":[],"current_user_disabled_inbox":false,"current_user_visited_tabs":null,"discussions_reporting":true,"files_domain":"cluster91.canvas-user-content.com","group_information":null,"DOMAIN_ROOT_ACCOUNT_ID":"131710000000000001","DOMAIN_ROOT_ACCOUNT_UUID":"YYzs3up2ikmNIyNSel3biohOBqVtaOJCALBEKdzq","k12":false,"help_link_name":"Help","help_link_icon":"help","use_high_contrast":false,"auto_show_cc":false,"disable_celebrations":false,"disable_keyboard_shortcuts":false,"LTI_LAUNCH_FRAME_ALLOWANCES":["geolocation *","microphone *","camera *","midi *","encrypted-media *","autoplay *","clipboard-write *","display-capture *"],"DEEP_LINKING_POST_MESSAGE_ORIGIN":"https://canvas.ucsd.edu","comment_library_suggestions_enabled":false,"SETTINGS":{"open_registration":false,"collapse_global_nav":false,"release_notes_badge_disabled":false,"can_add_pronouns":true,"show_sections_in_course_tray":true},"RAILS_ENVIRONMENT":"Production","IN_PACED_COURSE":false,"SENTRY_FRONTEND":{"dsn":"https://355a1d96717e4038ac25aa852fa79a8f@relay-iad.sentry.insops.net/388","org_slug":"instructure","base_url":"https://sentry.insops.net","normalized_route":"/courses/{course_id}/quizzes/{quiz_id}/take","errors_sample_rate":"0.005","traces_sample_rate":"0.005","url_deny_pattern":"instructure-uploads.*amazonaws.com","revision":"canvas-lms@20241023.232"},"DATA_COLLECTION_ENDPOINT":"https://canvas-frontend-data-iad-prod.inscloudgate.net/submit","DOMAIN_ROOT_ACCOUNT_SFID":"001A000000YzBFyIAN","DIRECT_SHARE_ENABLED":false,"CAN_VIEW_CONTENT_SHARES":false,"FEATURES":{"featured_help_links":true,"account_level_blackout_dates":false,"render_both_to_do_lists":false,"commons_new_quizzes":false,"course_paces_redesign":true,"course_paces_for_students":true,"explicit_latex_typesetting":false,"media_links_use_attachment_id":true,"permanent_page_links":true,"selective_release_backend":true,"selective_release_ui_api":true,"selective_release_edit_page":true,"enhanced_course_creation_account_fetching":false,"instui_for_import_page":false,"multiselect_gradebook_filters":true,"assignment_edit_placement_not_on_announcements":false,"instui_header":false,"rce_find_replace":true,"courses_popout_sisid":true,"dashboard_graphql_integration":false,"discussion_checkpoints":false,"speedgrader_studio_media_capture":true,"disallow_threaded_replies_fix_alert":true,"product_tours":false,"usage_rights_discussion_topics":true,"granular_permissions_manage_users":true,"create_course_subaccount_picker":true,"file_verifiers_for_quiz_links":true,"lti_deep_linking_module_index_menu_modal":true,"lti_dynamic_registration":true,"lti_registrations_next":false,"lti_multiple_assignment_deep_linking":true,"lti_overwrite_user_url_input_select_content_dialog":true,"buttons_and_icons_root_account":true,"extended_submission_state":false,"scheduled_page_publication":true,"send_usage_metrics":true,"rce_transform_loaded_content":false,"mobile_offline_mode":false,"react_discussions_post":true,"instui_nav":false,"enhanced_developer_keys_tables":true,"lti_registrations_discover_page":false,"account_level_mastery_scales":false,"non_scoring_rubrics":true,"top_navigation_placement":false,"rubric_criterion_range":true,"lti_migration_info":true,"rce_lite_enabled_speedgrader_comments":true,"lti_toggle_placements":true,"login_registration_ui_identity":false,"embedded_release_notes":true,"canvas_k6_theme":false,"new_math_equation_handling":true},"current_user":{"id":"219752","anonymous_id":"4pk8","display_name":"Vincent Cheng","avatar_image_url":"https://canvas.ucsd.edu/images/messages/avatar-50.png","html_url":"https://canvas.ucsd.edu/about/219752","pronouns":null,"avatar_is_fallback":true,"email":"v1cheng@ucsd.edu"},"current_user_is_admin":false,"page_view_update_url":"/page_views/929be68a-d13d-41b1-a5c6-a2cb7518543a?page_view_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpIjoiOTI5YmU2OGEtZDEzZC00MWIxLWE1YzYtYTJjYjc1MTg1NDNhIiwidSI6MTMxNzEwMDAwMDAwMjE5NzUyLCJjIjoiMjAyNC0xMC0zMFQwNjoxNTo1My44NFoifQ.DWe6u-6HjLw7h93NLk0xlc7LFIIf6V5jVeHqCae4PJE","context_asset_string":"course_58515","ping_url":"https://canvas.ucsd.edu/api/v1/courses/58515/ping","TIMEZONE":"America/Los_Angeles","CONTEXT_TIMEZONE":"America/Los_Angeles","LOCALES":["en"],"BIGEASY_LOCALE":"en_US","FULLCALENDAR_LOCALE":"en","MOMENT_LOCALE":"en","rce_auto_save_max_age_ms":86400000,"K5_USER":false,"USE_CLASSIC_FONT":false,"K5_HOMEROOM_COURSE":false,"K5_SUBJECT_COURSE":false,"LOCALE_TRANSLATION_FILE":"/dist/javascripts/translations/en-67c25a6858.json","ACCOUNT_ID":"404","user_cache_key":"MFNBNG9xeG5GM1ZRNTNBTjlSRXhRVGowMHBTSzFRRVJYT1hVeXBwQnZ5Zlc9\nO1twLTA/OntQXz1IVXBncmFxZTtuamFsa2hwdm9pdWxraW1tYXFld2c=\n","current_context":{"id":"58515","name":"COGS 17 - Neurobiology of Cognition - Johnson [FA24]","type":"Course","url":"https://canvas.ucsd.edu/courses/58515"},"RICH_CONTENT_APP_HOST":"rich-content-iad.inscloudgate.net","JWT":"ZXlKaGJHY2lPaUprYVhJaUxDSmxibU1pT2lKQk1qVTJSME5OSWl3aWNtVm5hVzl1SWpvaWRYTXRaV0Z6ZEMweElpd2laVzUyYVhKdmJtMWxiblFpT2lKUWNtOWtkV04wYVc5dUluMC4uVXkyS2FiN3B4OFZjT2xocS5HbG5YV25HMWlvcERnU0h5TllpWUczdXpuVU90dHhOQkQwVER2YXN4cXhrTk9xOFV2Q3dRLXJxckQ4R3pUcWloTG5YMmF4R0g4VkZfV1ZpczczN0FndjRobHRzMmotaVlWT1JLUy04MDhOb05fdDN3RmFNLXFKZHBfdEU2TkRTdzVMTWY1QktoWVdjNTVrcVlwQ3ZTUXhqMTZQM2EwdmlLQUhMdnlaU1BDU2hHLXBBZ0p5cTRRMW5ZbmR0QWNNT19HU3o2SG9pWG9vc3UyRU1tN2EyWGxRcmE4M2gzZlBOUWcwOTJvSUhpSmdIWUR1bTI5SnN1ZXB6XzlDWXZBaDdacTE2SFp5ODNDa3NWM0RDTHhYc0RJMHVsX1B2ckVTLXQ3ZGVWczBoM2xSUXQxczZpZ0hEMmpwYjNQenRFbUswZTdxb0RNclZRczdQWTNvRTZfNnpMcFR2b2FaTEJwZS0wZ2xfblJFRU9jcW5YaFNmTFowUG1iUjJjNW9ManpfTU9QNGl6QVk0eF9qVjdiN2tmbHdZUmdnLXQ1alEySWF0ZFBvZ29ueW1rRjhVV1l6dS05VzNCWXQ0Rnoyd1JWelAtanhSRmE5QzZWMTk0aEt2TnhRMTc4RFBJZXZGeWRYd0hkWktzNGRBOXQ3czR3dzVtbTUyTHVLbGM1WGxMcVRzd2d5bXUyclpVU2lMRnR5WDdJSWdSMGxJMFdVMXN3SmNwWGcxaWJCNy1DeU94ZTFMckJTX3hTU0RQSExtRGU1U09lcjNrYkVVaW05M0ozYzBXdks4d2tYMEU1NDdtM1FUY1A4TktsalFjNklIdmRhRWs2ZFhfYzNaV1ZlMGV1OXB3N0Q0MkZDUVFQMklDUUdJODMtTWJtbXBhcHdjWXNNTzA3STB1dDlSeC1JTWtvQ0I1c19obVV2c3gzUW1Mc0VjUFpEYkgweVRNOUZJa0QxREpNd1NKd04wVWc3YlhqaGFVOXY3Y3dnbzJmRjFNSktDTVBhNFJ3UE9Vbm5rVmNOMU5pdjIxaXhzb0c1NGtwWHdBZEZDc3dxWlBSSzhVOUF4alh2TU9jVEhBSVU5UVRMZzQ0TDMxSUhJLUZoT0pLby1Oa0hjUi40YjdZbnZGM1RINGtYU1pJdl9tbkhn","RICH_CONTENT_CAN_UPLOAD_FILES":false,"RICH_CONTENT_CAN_EDIT_FILES":false,"RICH_CONTENT_FILES_TAB_DISABLED":true,"RICH_CONTENT_INST_RECORD_TAB_DISABLED":false,"RICH_CONTENT_AI_TEXT_TOOLS":false,"SUBMISSION_DOWNLOAD_DIALOG_TITLE":"Download All Quiz File Upload Submissions","UPLOAD_URL":"/api/v1/courses/58515/quizzes/187157/submissions/self/files","QUIZ_SUBMISSION_EVENTS_URL":"https://canvas.ucsd.edu/api/v1/courses/58515/quizzes/187157/submissions/10604388/events","ATTACHMENTS":{},"CONTEXT_ACTION_SOURCE":"quizzes","COURSE_ID":"58515","LOCKDOWN_BROWSER":false,"QUIZ":{"id":"187157","title":"Homework 6_Control of Movement","html_url":"https://canvas.ucsd.edu/courses/58515/quizzes/187157","mobile_url":"https://canvas.ucsd.edu/courses/58515/quizzes/187157?force_user=1\u0026persist_headless=1","description":"\u003cp\u003eYou can revisit this Homework as many times as you like (until the deadline) to continue changing your answers.\u003c/p\u003e\n\u003cp\u003eEach time you take the quiz, the questions with errors will be marked.\u003c/p\u003e\n\u003cp\u003eOnly the final version you submit will determine your score on this Homework.\u003c/p\u003e\n\u003cp\u003eThis Homework is DUE at\u0026nbsp; \u003cspan style=\"font-size: 14pt;\"\u003e\u003cstrong\u003e11:59 pm, on FRIDAY, Nov 8.\u003c/strong\u003e\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eNo late Homeworks will be accepted.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eAfter the above deadline, you can access the no-point \"Practice Homeworks\" to review for the exam.\u003c/p\u003e","quiz_type":"assignment","time_limit":null,"timer_autosubmit_disabled":false,"shuffle_answers":false,"show_correct_answers":false,"scoring_policy":"keep_highest","allowed_attempts":-1,"one_question_at_a_time":false,"question_count":6,"points_possible":12.5,"cant_go_back":false,"ip_filter":null,"due_at":"2024-11-08T23:59:00-08:00","lock_at":"2024-11-08T23:59:00-08:00","unlock_at":"2024-09-26T15:30:00-07:00","published":true,"locked_for_user":false,"hide_results":null,"show_correct_answers_at":null,"hide_correct_answers_at":null,"all_dates":[{"due_at":"2024-11-08T23:59:00-08:00","unlock_at":"2024-09-26T15:30:00-07:00","lock_at":"2024-11-08T23:59:00-08:00","base":true}],"can_update":false,"require_lockdown_browser":false,"require_lockdown_browser_for_results":false,"require_lockdown_browser_monitor":false,"lockdown_browser_monitor_data":"","permissions":{"manage":false,"read":true,"create":false,"update":false,"submit":true,"preview":false,"delete":false,"read_statistics":false,"grade":false,"review_grades":false,"view_answer_audits":false,"manage_assign_to":false},"quiz_reports_url":"https://canvas.ucsd.edu/api/v1/courses/58515/quizzes/187157/reports","quiz_statistics_url":"https://canvas.ucsd.edu/api/v1/courses/58515/quizzes/187157/statistics","important_dates":false,"quiz_submission_versions_html_url":"https://canvas.ucsd.edu/courses/58515/quizzes/187157/submission_versions","assignment_id":"855456","one_time_results":false,"visible_to_everyone":true,"assignment_group_id":"231739","show_correct_answers_last_attempt":false,"version_number":11,"has_access_code":false,"post_to_sis":false,"migration_id":"g1ab9da7dbcb681b927fc9c1180abcff4","in_paced_course":false},"QUIZ_DETAILS_URL":"https://canvas.ucsd.edu/courses/58515/quizzes/187157/managed_quiz_data","QUIZZES_URL":"https://canvas.ucsd.edu/courses/58515/quizzes","MAX_GROUP_CONVERSATION_SIZE":100,"badge_counts":{"submissions":1},"notices":[],"active_context_tab":"quizzes"};
+    BRANDABLE_CSS_HANDLEBARS_INDEX = [["new_styles_normal_contrast","new_styles_high_contrast","new_styles_normal_contrast_rtl","new_styles_high_contrast_rtl"],{"10":["908ffbc673",0,"d5c9044c6e",2],"15":["c8540c43a4",0,"0a2196be1d",2],"19":["df5777ed9c"],"61":["b8f6d0d1fa","c3396c44a9","cfc0690334","1c0f3762fa"],"67":["700335fb7b",0,"1cc2485e2c",2],"71":["8ac0336ef0","bf3093677a","a8146a011b","449171073f"],"06":["ba28819778",0,"96b99aafe5",2],"f0":["b349f31f5e",0,0,0],"c8":["718c8509f5","33cd4c40e3","03d0fbcbe8","ec23096f0d"],"1e":["6eb4ecac8e","4100cb65ce","0faf4716c8","bed54fd75e"],"b3":["e5da23fb43","0911fc8ed3","05b2bb5a6f","ba2585de5c"],"0c":["4dae5befd2",0,"c18876be89",2],"da":["b5a7f9cd8f","a4e5066985","773390ae11","8e9071910c"],"1d":["2128789890",0,"e568085637",2],"08":["64bff5a97d"],"e2":["11429f119a"],"9f":["d39b291ba6",0,0,0],"2b":["c491abf31e","b11dc54da6","b58622671f","6bb4a7ae9e"],"2c":["8a926fc28b",0,0,0],"c2":["6f2721ae01"],"9c":["c31821c764",0,"1693aba1da",2],"c5":["44c6024769","31150a4a27","53dd277fa9","5fe61c91c2"],"f2":["51574f9b13"]}]
+    REMOTES = {};
+  </script>
+  <script src="https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/b6d3989d9de73fe3ea38011d4fd91ed0/variables-7dd4b80918af0e0218ec0229e4bd5873.js" defer="defer"></script>
+  <script src="https://du11hjcvx0uqb.cloudfront.net/dist/timezone/America/Los_Angeles-6699c54112.js" defer="defer"></script>
+  <script src="https://du11hjcvx0uqb.cloudfront.net/dist/timezone/America/Los_Angeles-6699c54112.js" defer="defer"></script>
+  <script src="https://du11hjcvx0uqb.cloudfront.net/dist/timezone/en_US-80a0ce259b.js" defer="defer"></script>
+  <script src="https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/react-entry-d6972cd7700667c0.js" crossorigin="anonymous" defer="defer"></script>
+  <script src="https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/main-entry-478a899f81fab8e3.js" crossorigin="anonymous" defer="defer"></script>
+<script>
+//<![CDATA[
+(window.deferredBundles || (window.deferredBundles = [])).push('take_quiz');
+(window.bundles || (window.bundles = [])).push('navigation_header');
+//]]>
+</script>
+  
+  <script type="text/javascript">
+    window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
+    heap.load("3001039959");
+    heap.clearEventProperties();
+    heap.addEventProperties({'Base.appName': 'Canvas'});
+    setTimeout(() => {
+      if (ENV.current_user_heap_id && ENV.current_user_heap_id !== heap.identity) {
+        heap.identify(ENV.current_user_heap_id);
+      }
+      props = {}
+      if (ENV.current_user_roles) {
+        props['role'] = ENV.current_user_roles[ENV.current_user_roles.length - 1]
+      }
+      if (ENV.DOMAIN_ROOT_ACCOUNT_UUID) {
+        props['Canvas.accountId'] = ENV.DOMAIN_ROOT_ACCOUNT_UUID
+      }
+      if (ENV.DOMAIN_ROOT_ACCOUNT_SFID) {
+        props['Canvas.salesforceAccountId'] = ENV.DOMAIN_ROOT_ACCOUNT_SFID
+      }
+      if (Object.keys(props).length > 0) {
+        heap.addUserProperties(props);
+      }
+    }, 1000);
+  </script>
+</head>
+
+<body class="assessing with-left-side course-menu-expanded with-right-side quizzes primary-nav-expanded context-course_58515 responsive_student_grades_page">
+
+<noscript>
+  <div role="alert" class="ic-flash-static ic-flash-error">
+    <div class="ic-flash__icon" aria-hidden="true">
+      <i class="icon-warning"></i>
+    </div>
+    <h1>You need to have JavaScript enabled in order to access this site.</h1>
+  </div>
+</noscript>
+
+
+
+
+<div id="flash_message_holder"></div>
+<div id="flash_screenreader_holder"></div>
+
+<div id="application" class="ic-app">
+  
+
+
+
+
+<header id="mobile-header" class="no-print">
+  <button type="button" class="Button Button--icon-action-rev Button--large mobile-header-hamburger">
+    <i class="icon-solid icon-hamburger"></i>
+    <span id="mobileHeaderInboxUnreadBadge" class="menu-item__badge" style="min-width: 0; top: 12px; height: 12px; right: 6px; display:none;"></span>
+    <span class="screenreader-only">Dashboard</span>
+  </button>
+  <div class="mobile-header-space"></div>
+    <a class="mobile-header-title expandable" href="/courses/58515" role="button" aria-controls="mobileContextNavContainer">
+      <div>COGS17_FA24_A00</div>
+        <div>Homework 6_Control of Movement</div>
+    </a>
+    <div class="mobile-header-space"></div>
+    <button type="button" class="Button Button--icon-action-rev Button--large mobile-header-arrow" aria-label="Navigation Menu">
+      <i class="icon-arrow-open-down" id="mobileHeaderArrowIcon"></i>
+    </button>
+</header>
+<nav id="mobileContextNavContainer"></nav>
+
+<header id="header" class="ic-app-header no-print ">
+  <a href="#content" id="skip_navigation_link">Skip To Content</a>
+  <div role="region" class="ic-app-header__main-navigation" aria-label="Global Navigation">
+      <div class="ic-app-header__logomark-container">
+        <a href="https://canvas.ucsd.edu/" class="ic-app-header__logomark">
+          <span class="screenreader-only">Dashboard</span>
+        </a>
+      </div>
+    <ul id="menu" class="ic-app-header__menu-list">
+        <li class="menu-item ic-app-header__menu-list-item ">
+          <a id="global_nav_profile_link" role="button" href="/profile/settings" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container">
+              <div aria-hidden="true" class="fs-exclude ic-avatar ">
+                <img src="https://canvas.ucsd.edu/images/messages/avatar-50.png" alt="Vincent Cheng" />
+              </div>
+              <span class="menu-item__badge"></span>
+            </div>
+            <div class="menu-item__text">
+              Account
+            </div>
+          </a>
+        </li>
+      <li class="ic-app-header__menu-list-item ">
+        <a id="global_nav_dashboard_link" href="https://canvas.ucsd.edu/" class="ic-app-header__menu-list-link">
+          <div class="menu-item-icon-container" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--dashboard" version="1.1" x="0" y="0" viewBox="0 0 280 200" enable-background="new 0 0 280 200" xml:space="preserve"><path d="M273.09,180.75H197.47V164.47h62.62A122.16,122.16,0,1,0,17.85,142a124,124,0,0,0,2,22.51H90.18v16.29H6.89l-1.5-6.22A138.51,138.51,0,0,1,1.57,142C1.57,65.64,63.67,3.53,140,3.53S278.43,65.64,278.43,142a137.67,137.67,0,0,1-3.84,32.57ZM66.49,87.63,50.24,71.38,61.75,59.86,78,76.12Zm147,0L202,76.12l16.25-16.25,11.51,11.51ZM131.85,53.82v-23h16.29v23Zm15.63,142.3a31.71,31.71,0,0,1-28-16.81c-6.4-12.08-15.73-72.29-17.54-84.25a8.15,8.15,0,0,1,13.58-7.2c8.88,8.21,53.48,49.72,59.88,61.81a31.61,31.61,0,0,1-27.9,46.45ZM121.81,116.2c4.17,24.56,9.23,50.21,12,55.49A15.35,15.35,0,1,0,161,157.3C158.18,152,139.79,133.44,121.81,116.2Z" /></svg>
+
+          </div>
+          <div class="menu-item__text">
+            Dashboard
+          </div>
+        </a>
+      </li>
+        <li class="menu-item ic-app-header__menu-list-item ic-app-header__menu-list-item--active">
+          <a id="global_nav_courses_link" role="button" href="/courses" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--courses" version="1.1" x="0" y="0" viewBox="0 0 280 259" enable-background="new 0 0 280 259" xml:space="preserve"><path d="M73.31,198c-11.93,0-22.22,8-24,18.73a26.67,26.67,0,0,0-.3,3.63v.3a22,22,0,0,0,5.44,14.65,22.47,22.47,0,0,0,17.22,8H200V228.19h-134V213.08H200V198Zm21-105.74h90.64V62H94.3ZM79.19,107.34V46.92H200v60.42Zm7.55,30.21V122.45H192.49v15.11ZM71.65,16.71A22.72,22.72,0,0,0,49,39.36V190.88a41.12,41.12,0,0,1,24.32-8h157V16.71ZM33.88,39.36A37.78,37.78,0,0,1,71.65,1.6H245.36V198H215.15v45.32h22.66V258.4H71.65a37.85,37.85,0,0,1-37.76-37.76Z"/></svg>
+
+            </div>
+            <div class="menu-item__text">
+              Courses
+            </div>
+          </a>
+        </li>
+      <li class="menu-item ic-app-header__menu-list-item ">
+        <a id="global_nav_calendar_link" href="/calendar" class="ic-app-header__menu-list-link">
+          <div class="menu-item-icon-container" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--calendar" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M197.07,213.38h16.31V197.07H197.07Zm-16.31,16.31V180.76h48.92v48.92Zm-48.92-16.31h16.31V197.07H131.85Zm-16.31,16.31V180.76h48.92v48.92ZM66.62,213.38H82.93V197.07H66.62ZM50.32,229.68V180.76H99.24v48.92Zm146.75-81.53h16.31V131.85H197.07Zm-16.31,16.31V115.54h48.92v48.92Zm-48.92-16.31h16.31V131.85H131.85Zm-16.31,16.31V115.54h48.92v48.92ZM66.62,148.15H82.93V131.85H66.62ZM50.32,164.46V115.54H99.24v48.92ZM34,262.29H246V82.93H34ZM246,66.62V42.16A8.17,8.17,0,0,0,237.84,34H213.38v8.15a8.15,8.15,0,1,1-16.31,0V34H82.93v8.15a8.15,8.15,0,0,1-16.31,0V34H42.16A8.17,8.17,0,0,0,34,42.16V66.62Zm-8.15-48.92a24.49,24.49,0,0,1,24.46,24.46V278.6H17.71V42.16A24.49,24.49,0,0,1,42.16,17.71H66.62V9.55a8.15,8.15,0,0,1,16.31,0v8.15H197.07V9.55a8.15,8.15,0,1,1,16.31,0v8.15Z"/></svg>
+
+          </div>
+          <div class="menu-item__text">
+            Calendar
+          </div>
+        </a>
+      </li>
+      <li class="menu-item ic-app-header__menu-list-item ">
+      <!-- TODO: Add back global search when available -->
+        <a id="global_nav_conversations_link" href="/conversations" class="ic-app-header__menu-list-link">
+          <div class="menu-item-icon-container">
+            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--inbox" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M91.72,120.75h96.56V104.65H91.72Zm0,48.28h80.47V152.94H91.72Zm0-96.56h80.47V56.37H91.72Zm160.94,34.88H228.52V10.78h-177v96.56H27.34A24.17,24.17,0,0,0,3.2,131.48V244.14a24.17,24.17,0,0,0,24.14,24.14H252.66a24.17,24.17,0,0,0,24.14-24.14V131.48A24.17,24.17,0,0,0,252.66,107.34Zm0,16.09a8.06,8.06,0,0,1,8,8v51.77l-32.19,19.31V123.44ZM67.58,203.91v-177H212.42v177ZM27.34,123.44H51.48v79.13L19.29,183.26V131.48A8.06,8.06,0,0,1,27.34,123.44ZM252.66,252.19H27.34a8.06,8.06,0,0,1-8-8V202l30,18H230.75l30-18v42.12A8.06,8.06,0,0,1,252.66,252.19Z"/></svg>
+</span>
+            <span class="menu-item__badge"></span>
+          </div>
+          <div class="menu-item__text">
+            Inbox
+          </div>
+        </a>
+      </li>
+        <li class="menu-item ic-app-header__menu-list-item" >
+          <a id="global_nav_history_link" role="button" href="#" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container" aria-hidden="true">
+              <svg viewBox="0 0 1920 1920" class="ic-icon-svg menu-item__icon svg-icon-history" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M960 112.941c-467.125 0-847.059 379.934-847.059 847.059 0 467.125 379.934 847.059 847.059 847.059 467.125 0 847.059-379.934 847.059-847.059 0-467.125-379.934-847.059-847.059-847.059M960 1920C430.645 1920 0 1489.355 0 960S430.645 0 960 0s960 430.645 960 960-430.645 960-960 960m417.905-575.955L903.552 988.28V395.34h112.941v536.47l429.177 321.77-67.765 90.465z" stroke="none" stroke-width="1" fill-rule="evenodd"/>
+</svg>
+            </div>
+            <div class="menu-item__text">
+              History
+            </div>
+          </a>
+        </li>
+        
+    <li id="context_external_tool_5826_menu_item" class="globalNavExternalTool menu-item ic-app-header__menu-list-item">
+      <a class='ic-app-header__menu-list-link' href="/accounts/1/external_tools/5826?launch_type=global_navigation">
+          <svg version="1.1" class="ic-icon-svg ic-icon-svg--lti menu-item__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+            <path d="M 32.023438 43.859375 C 30.46875 43.859375 29.28125 45.417969 29.28125 47.375 L 29.28125 57.210938 C 29.28125 59.167969 30.515625 60.726562 32.023438 60.726562 C 33.574219 60.726562 34.761719 59.167969 34.761719 57.210938 L 34.761719 47.375 C 34.808594 45.417969 33.574219 43.859375 32.023438 43.859375 Z M 52.300781 47.554688 L 45.128906 40.476562 C 44.398438 39.722656 43.394531 39.277344 42.34375 39.230469 C 41.066406 39.1875 39.96875 40.210938 39.96875 41.457031 L 39.96875 41.589844 C 40.015625 42.613281 40.472656 43.636719 41.25 44.351562 L 48.417969 51.425781 C 49.148438 52.183594 50.15625 52.628906 51.207031 52.671875 C 52.484375 52.714844 53.578125 51.691406 53.578125 50.445312 L 53.578125 50.3125 C 53.535156 49.246094 53.078125 48.265625 52.300781 47.554688 Z M 24.167969 39.898438 C 23.710938 39.453125 23.070312 39.230469 22.429688 39.230469 C 21.382812 39.277344 20.421875 39.722656 19.691406 40.433594 L 12.65625 47.375 C 11.925781 48.089844 11.46875 49.066406 11.425781 50.089844 C 11.378906 50.714844 11.652344 51.335938 12.109375 51.828125 C 12.566406 52.273438 13.207031 52.539062 13.84375 52.496094 C 14.894531 52.449219 15.855469 52.003906 16.585938 51.292969 L 23.617188 44.351562 C 24.394531 43.636719 24.804688 42.660156 24.851562 41.636719 C 24.898438 40.96875 24.625 40.34375 24.167969 39.898438 Z M 28.09375 31.710938 C 28.09375 29.484375 29.96875 27.660156 32.25 27.660156 C 34.535156 27.660156 36.40625 29.484375 36.40625 31.710938 C 36.40625 33.9375 34.535156 35.761719 32.25 35.761719 C 29.96875 35.761719 28.09375 33.9375 28.09375 31.710938 Z M 16.632812 28.816406 L 6.675781 28.816406 C 4.664062 28.816406 3.113281 30.019531 3.113281 31.53125 C 3.113281 33.046875 4.664062 34.246094 6.675781 34.246094 L 16.632812 34.246094 C 18.640625 34.246094 20.195312 33.046875 20.195312 31.53125 C 20.195312 30.019531 18.59375 28.816406 16.632812 28.816406 Z M 57.28125 28.816406 L 47.140625 28.816406 C 45.128906 28.816406 43.53125 30.019531 43.53125 31.53125 C 43.53125 33.046875 45.128906 34.246094 47.140625 34.246094 L 57.28125 34.246094 C 59.289062 34.246094 60.886719 33.046875 60.886719 31.53125 C 60.886719 30.019531 59.289062 28.816406 57.28125 28.816406 Z M 52.894531 12.085938 C 52.4375 11.640625 51.84375 11.417969 51.160156 11.417969 C 50.109375 11.460938 49.105469 11.90625 48.375 12.664062 L 41.203125 19.738281 C 40.425781 20.449219 39.96875 21.429688 39.925781 22.5 C 39.878906 23.121094 40.152344 23.746094 40.609375 24.1875 C 41.066406 24.632812 41.660156 24.855469 42.34375 24.855469 C 43.394531 24.8125 44.398438 24.367188 45.128906 23.609375 L 52.300781 16.535156 C 53.078125 15.824219 53.535156 14.84375 53.578125 13.773438 C 53.625 13.152344 53.351562 12.527344 52.894531 12.085938 Z M 23.617188 19.5625 L 16.585938 12.617188 C 15.855469 11.863281 14.894531 11.460938 13.84375 11.417969 C 12.566406 11.371094 11.46875 12.351562 11.425781 13.640625 L 11.425781 13.820312 C 11.46875 14.84375 11.925781 15.824219 12.65625 16.535156 L 19.691406 23.476562 C 20.421875 24.234375 21.382812 24.679688 22.429688 24.679688 C 23.710938 24.722656 24.804688 23.746094 24.851562 22.453125 L 24.851562 22.277344 C 24.804688 21.253906 24.351562 20.273438 23.617188 19.5625 Z M 32.023438 3.273438 C 30.46875 3.273438 29.28125 4.828125 29.28125 6.832031 L 29.28125 16.847656 C 29.28125 18.847656 30.515625 20.40625 32.023438 20.40625 C 33.574219 20.40625 34.761719 18.847656 34.761719 16.847656 L 34.761719 6.832031 C 34.808594 4.875 33.574219 3.273438 32.023438 3.273438 Z M 32.023438 3.273438"/>
+          </svg>
+        <div class="menu-item__text">
+          My Media
+        </div>
+      </a>
+    </li>
+
+      <li class="ic-app-header__menu-list-item">
+        <a id="global_nav_help_link" role="button" class="ic-app-header__menu-list-link" data-track-category="help system" data-track-label="help button" href="https://help.instructure.com">
+          <div class="menu-item-icon-container" role="presentation">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg menu-item__icon svg-icon-help" version="1.1" x="0" y="0" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve" fill="currentColor"><path d="M100,127.88A11.15,11.15,0,1,0,111.16,139,11.16,11.16,0,0,0,100,127.88Zm8.82-88.08a33.19,33.19,0,0,1,23.5,23.5,33.54,33.54,0,0,1-24,41.23,3.4,3.4,0,0,0-2.74,3.15v9.06H94.42v-9.06a14.57,14.57,0,0,1,11.13-14,22.43,22.43,0,0,0,13.66-10.27,22.73,22.73,0,0,0,2.31-17.37A21.92,21.92,0,0,0,106,50.59a22.67,22.67,0,0,0-19.68,3.88,22.18,22.18,0,0,0-8.65,17.64H66.54a33.25,33.25,0,0,1,13-26.47A33.72,33.72,0,0,1,108.82,39.8ZM100,5.2A94.8,94.8,0,1,0,194.8,100,94.91,94.91,0,0,0,100,5.2m0,178.45A83.65,83.65,0,1,1,183.65,100,83.73,83.73,0,0,1,100,183.65" transform="translate(-5.2 -5.2)"/></svg>
+
+            <span class="menu-item__badge"></span>
+          </div>
+          <div class="menu-item__text">
+            Help
+          </div>
+</a>      </li>
+    </ul>
+  </div>
+  <div class="ic-app-header__secondary-navigation">
+    <ul class="ic-app-header__menu-list">
+      <li class="menu-item ic-app-header__menu-list-item">
+        <a
+          id="primaryNavToggle"
+          role="button"
+          href="#"
+          class="ic-app-header__menu-list-link ic-app-header__menu-list-link--nav-toggle"
+          aria-label="Minimize global navigation"
+          title="Minimize global navigation"
+        >
+          <div class="menu-item-icon-container" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--navtoggle" version="1.1" x="0" y="0" width="40" height="32" viewBox="0 0 40 32" xml:space="preserve">
+  <path d="M39.5,30.28V2.48H37.18v27.8Zm-4.93-13.9L22.17,4,20.53,5.61l9.61,9.61H.5v2.31H30.14l-9.61,9.61,1.64,1.64Z"/>
+</svg>
+
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div id="global_nav_tray_container"></div>
+  <div id="global_nav_tour"></div>
+</header>
+
+
+  <div id="instructure_ajax_error_box">
+    <div style="text-align: right; background-color: #fff;"><a href="#" class="close_instructure_ajax_error_box_link">Close</a></div>
+    <iframe id="instructure_ajax_error_result" src="about:blank" style="border: 0;" title="Error"></iframe>
+  </div>
+
+  <div id="wrapper" class="ic-Layout-wrapper">
+        <div class="ic-app-nav-toggle-and-crumbs no-print">
+            <button type="button" id="courseMenuToggle" class="Button Button--link ic-app-course-nav-toggle" aria-live="polite" aria-label="Hide Courses Navigation Menu">
+              <i class="icon-hamburger" aria-hidden="true"></i>
+            </button>
+
+          <div class="ic-app-crumbs ">
+              <nav id="breadcrumbs" role="navigation" aria-label="breadcrumbs"><ul><li class="home"><a href="/"><span class="ellipsible"><i class="icon-home"
+   title="My Dashboard">
+  <span class="screenreader-only">My Dashboard</span>
+</i>
+</span></a></li><li><a href="/courses/58515"><span class="ellipsible">COGS17_FA24_A00</span></a></li><li><a href="/courses/58515/quizzes"><span class="ellipsible">Quizzes</span></a></li><li><a href="/courses/58515/quizzes/187157"><span class="ellipsible">Homework 6_Control of Movement</span></a></li></ul></nav>
+          </div>
+
+
+          <div class="right-of-crumbs">
+          </div>
+
+        </div>
+    <div id="main" class="ic-Layout-columns">
+        <div class="ic-Layout-watermark"></div>
+        <div id="left-side"
+          class="ic-app-course-menu ic-sticky-on list-view"
+          style="display: block"
+          >
+          <div id="sticky-container" class="ic-sticky-frame">
+              <span id="section-tabs-header-subtitle" class="ellipsis">Fall 2024</span>
+            <nav role="navigation" aria-label="Courses Navigation Menu"><ul id="section-tabs"><li class="section"><a href="/courses/58515" class="home">Home</a></li><li class="section"><a href="/courses/58515/modules" class="modules">Modules</a></li><li class="section"><a href="/courses/58515/announcements" class="announcements">Announcements</a></li><li class="section"><a href="/courses/58515/grades" class="grades">Grades</a></li><li class="section"><a href="/courses/58515/users" class="people">People</a></li><li class="section"><a href="/courses/58515/external_tools/1173" class="context_external_tool_1173">Academic Support</a></li><li class="section"><a href="/courses/58515/external_tools/63" class="context_external_tool_63">Academic Integrity</a></li><li class="section"><a href="/courses/58515/external_tools/4101" class="context_external_tool_4101">Zoom</a></li><li class="section"><a href="/courses/58515/external_tools/3269" class="context_external_tool_3269">Piazza</a></li><li class="section"><a href="/courses/58515/external_tools/4329" class="context_external_tool_4329">Course Reserves</a></li><li class="section"><a href="/courses/58515/external_tools/4982" class="context_external_tool_4982">Library Resources</a></li><li class="section"><a href="/courses/58515/external_tools/5826" class="context_external_tool_5826">Media Gallery</a></li></ul></nav>
+          </div>
+        </div>
+      <div id="not_right_side" class="ic-app-main-content">
+        <div id="content-wrapper" class="ic-Layout-contentWrapper">
+          
+          <div id="content" class="ic-Layout-contentMain" role="main">
+            
+
+
+
+<h3 class="loading">Loading...</h3>
+<div class="loaded" style="display:none">
+  <header class="quiz-header">
+    <h1>Homework 6_Control of Movement</h1>
+    Started:
+    Oct 29 at 11:15pm
+    <h2>Quiz Instructions</h2>
+    <div id="quiz-instructions" class="user_content">
+      <p>You can revisit this Homework as many times as you like (until the deadline) to continue changing your answers.</p>
+<p>Each time you take the quiz, the questions with errors will be marked.</p>
+<p>Only the final version you submit will determine your score on this Homework.</p>
+<p>This Homework is DUE at&nbsp; <span style="font-size: 14pt;"><strong>11:59 pm, on FRIDAY, Nov 8.</strong></span></p>
+<p><strong>No late Homeworks will be accepted.</strong></p>
+<p>After the above deadline, you can access the no-point "Practice Homeworks" to review for the exam.</p>
+    </div>
+
+  </header>
+
+
+  <form id="submit_quiz_form" class="all_questions last_page" action="/courses/58515/quizzes/187157/submissions?user_id=219752" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" autocomplete="off" /><input type="hidden" name="authenticity_token" value="iVqXQSsNXmMLTQL1uINLD0QBXkh26UDutOPqQ0GQ82XLNaJ2GkwXM10CasfAwXJpB2IcPCKtCcHR0ZkHdOqiNQ==" autocomplete="off" />
+
+  <div id="questions" class="assessing">
+    <input type="hidden" name="attempt" value="1"/>
+      <input type="hidden" name="validation_token" value="f8eb43f6bb7d3dc7a7443ed13f20abcfe508bbc2aabf8ca9ef4694aebcffbb87"/>
+    <div style="display: none;" id="quiz_urls">
+      <a href="/courses/58515/quizzes/187157/submissions/backup?user_id=219752" class="backup_quiz_submission_url">&nbsp;</a>
+      <span class="started_at">2024-10-29T23:15:50-07:00</span>
+      <span class="now">2024-10-29T23:15:54-07:00</span>
+      <span class="end_at">2024-11-08T23:59:00-08:00</span>
+      <span class="end_at_without_time_limit">2024-11-08T23:59:00-08:00</span>
+      <span class="due_at">2024-11-08T23:59:00-08:00</span>
+      <span class="time_limit">&nbsp;</span>
+      <span class="timer_autosubmit_disabled">false</span>
+      <span class="time_left">870186</span>
+    </div>
+
+    
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_1813138"></a>
+  <div class="display_question question multiple_dropdowns_question     " id="question_1813138">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+      <a href="#" class="flag_question" role="checkbox" aria-checked="false">
+        <span class="screenreader-only">
+          Flag question: Question 1
+        </span>
+      </a>
+    <div class="header" >
+      <span class="name question_name" role="heading" aria-level="2">Question 1</span>
+      <span class="question_points_holder" style="">
+        <span class="points question_points">2.5</span> pts
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="#" class="edit_question_link no-hover" title="Edit this Question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this Question</span></i></a>
+          <a href="#" class="delete_question_link no-hover" title="Delete this Question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this Question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">multiple_dropdowns_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="/courses/58515/quizzes/187157/questions/1813138" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">2036137</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea disabled style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea disabled style="display: none;" name="question_text" class="textarea_question_text">&lt;p&gt;Answer the following in regards to the &lt;span style=&quot;text-decoration: underline;&quot;&gt;neuro-muscular junction&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;A)&amp;nbsp; Most striate muscles come in &lt;select class=&#39;question_input&#39; name=&#39;question_1813138_5ad018655f709bbc25f55df282068edb&#39;&gt;
+  &lt;option value=&#39;&#39;&gt;
+    [ Select ]
+  &lt;/option&gt;
+  [&quot;&lt;option value=&#39;5939&#39;&gt;Agonistic&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;7676&#39;&gt;Antagonistic&lt;/option&gt;&quot;]
+&lt;/select&gt;
+ pairs.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;B)&amp;nbsp; A muscle hat brings the attached bone toward the center of the body is called a &lt;select class=&#39;question_input&#39; name=&#39;question_1813138_937eb83e457af3fbaaff567035188dc4&#39;&gt;
+  &lt;option value=&#39;&#39;&gt;
+    [ Select ]
+  &lt;/option&gt;
+  [&quot;&lt;option value=&#39;4732&#39;&gt;Flexor&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;2051&#39;&gt;Extensor&lt;/option&gt;&quot;]
+&lt;/select&gt;
+.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;C) &amp;nbsp;The contractile unit within each muscle fiber is called &lt;select class=&#39;question_input&#39; name=&#39;question_1813138_a3f9c3d0a562083f6f0a783da8421946&#39;&gt;
+  &lt;option value=&#39;&#39;&gt;
+    [ Select ]
+  &lt;/option&gt;
+  [&quot;&lt;option value=&#39;6821&#39;&gt;Sarcomere&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;5757&#39;&gt;Alpha neuron&lt;/option&gt;&quot;]
+&lt;/select&gt;
+.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;D)&amp;nbsp; The portion of the contractile unit that is a coiled double strand anchored to the muscle is called &lt;select class=&#39;question_input&#39; name=&#39;question_1813138_3abc5b346f55e29da18d730b5237530d&#39;&gt;
+  &lt;option value=&#39;&#39;&gt;
+    [ Select ]
+  &lt;/option&gt;
+  [&quot;&lt;option value=&#39;6899&#39;&gt;Actin&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;720&#39;&gt;Myosin&lt;/option&gt;&quot;]
+&lt;/select&gt;
+.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;E) &amp;nbsp;The portion of the contractile unit that has cross-bridges is called&amp;nbsp; &lt;select class=&#39;question_input&#39; name=&#39;question_1813138_92087adc9b3840357336018f24f2a485&#39;&gt;
+  &lt;option value=&#39;&#39;&gt;
+    [ Select ]
+  &lt;/option&gt;
+  [&quot;&lt;option value=&#39;4873&#39;&gt;Actin&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;6852&#39;&gt;Myosin&lt;/option&gt;&quot;]
+&lt;/select&gt;
+.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;F)&amp;nbsp; During a muscle contraction, the neurotransmitter &lt;select class=&#39;question_input&#39; name=&#39;question_1813138_29fe0c8d14af354ef5e772c36e9c2041&#39;&gt;
+  &lt;option value=&#39;&#39;&gt;
+    [ Select ]
+  &lt;/option&gt;
+  [&quot;&lt;option value=&#39;1851&#39;&gt;Substance P&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;1198&#39;&gt;Achetylcholine&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;6635&#39;&gt;Serotonin&lt;/option&gt;&quot;]
+&lt;/select&gt;
+ attaches to receptor sites on the muscle fiber.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;G)&amp;nbsp; When the ion &lt;select class=&#39;question_input&#39; name=&#39;question_1813138_27c764b2072d0df94f469000f8fb2040&#39;&gt;
+  &lt;option value=&#39;&#39;&gt;
+    [ Select ]
+  &lt;/option&gt;
+  [&quot;&lt;option value=&#39;8759&#39;&gt;Na+&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;5021&#39;&gt;K+&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;7034&#39;&gt;Ca++&lt;/option&gt;&quot;]
+&lt;/select&gt;
+ enters the muscle cell, this triggers the cross-bridges to activate, contracting the muscle.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</textarea>
+      </div>
+      <div id="question_1813138_question_text" class="question_text user_content">
+          <p>Answer the following in regards to the <span style="text-decoration: underline;">neuro-muscular junction</span>.</p>
+<p>&nbsp; &nbsp; &nbsp;A)&nbsp; Most striate muscles come in <select class="question_input" name="question_1813138_5ad018655f709bbc25f55df282068edb" aria-label="Multiple dropdowns, read surrounding text">
+  <option value="" selected="selected">
+    [ Select ]
+  </option>
+  ["<option value="5939">Agonistic</option>", "<option value="7676">Antagonistic</option>"]
+</select>
+ pairs.</p>
+<p>&nbsp; &nbsp; &nbsp;B)&nbsp; A muscle hat brings the attached bone toward the center of the body is called a <select class="question_input" name="question_1813138_937eb83e457af3fbaaff567035188dc4" aria-label="Multiple dropdowns, read surrounding text">
+  <option value="" selected="selected">
+    [ Select ]
+  </option>
+  ["<option value="4732">Flexor</option>", "<option value="2051">Extensor</option>"]
+</select>
+.</p>
+<p>&nbsp; &nbsp; &nbsp;C) &nbsp;The contractile unit within each muscle fiber is called <select class="question_input" name="question_1813138_a3f9c3d0a562083f6f0a783da8421946" aria-label="Multiple dropdowns, read surrounding text">
+  <option value="" selected="selected">
+    [ Select ]
+  </option>
+  ["<option value="6821">Sarcomere</option>", "<option value="5757">Alpha neuron</option>"]
+</select>
+.</p>
+<p>&nbsp; &nbsp; &nbsp;D)&nbsp; The portion of the contractile unit that is a coiled double strand anchored to the muscle is called <select class="question_input" name="question_1813138_3abc5b346f55e29da18d730b5237530d" aria-label="Multiple dropdowns, read surrounding text">
+  <option value="" selected="selected">
+    [ Select ]
+  </option>
+  ["<option value="6899">Actin</option>", "<option value="720">Myosin</option>"]
+</select>
+.</p>
+<p>&nbsp; &nbsp; &nbsp;E) &nbsp;The portion of the contractile unit that has cross-bridges is called&nbsp; <select class="question_input" name="question_1813138_92087adc9b3840357336018f24f2a485" aria-label="Multiple dropdowns, read surrounding text">
+  <option value="" selected="selected">
+    [ Select ]
+  </option>
+  ["<option value="4873">Actin</option>", "<option value="6852">Myosin</option>"]
+</select>
+.</p>
+<p>&nbsp; &nbsp; &nbsp;F)&nbsp; During a muscle contraction, the neurotransmitter <select class="question_input" name="question_1813138_29fe0c8d14af354ef5e772c36e9c2041" aria-label="Multiple dropdowns, read surrounding text">
+  <option value="" selected="selected">
+    [ Select ]
+  </option>
+  ["<option value="1851">Substance P</option>", "<option value="1198">Achetylcholine</option>", "<option value="6635">Serotonin</option>"]
+</select>
+ attaches to receptor sites on the muscle fiber.</p>
+<p>&nbsp; &nbsp; &nbsp;G)&nbsp; When the ion <select class="question_input" name="question_1813138_27c764b2072d0df94f469000f8fb2040" aria-label="Multiple dropdowns, read surrounding text">
+  <option value="" selected="selected">
+    [ Select ]
+  </option>
+  ["<option value="8759">Na+</option>", "<option value="5021">K+</option>", "<option value="7034">Ca++</option>"]
+</select>
+ enters the muscle cell, this triggers the cross-bridges to activate, contracting the muscle.</p>
+<p>&nbsp;</p>
+      </div>
+      <div class="answers">
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_1813139"></a>
+  <div class="display_question question matching_question     " id="question_1813139">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+      <a href="#" class="flag_question" role="checkbox" aria-checked="false">
+        <span class="screenreader-only">
+          Flag question: Question 2
+        </span>
+      </a>
+    <div class="header" >
+      <span class="name question_name" role="heading" aria-level="2">Question 2</span>
+      <span class="question_points_holder" style="">
+        <span class="points question_points">2</span> pts
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="#" class="edit_question_link no-hover" title="Edit this Question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this Question</span></i></a>
+          <a href="#" class="delete_question_link no-hover" title="Delete this Question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this Question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">matching_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="/courses/58515/quizzes/187157/questions/1813139" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">&nbsp;</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea disabled style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea disabled style="display: none;" name="question_text" class="textarea_question_text">Match the &lt;span style=&quot;text-decoration: underline;&quot;&gt;reflex&lt;/span&gt; to the appropriate characteristics below.</textarea>
+      </div>
+      <div id="question_1813139_question_text" class="question_text user_content">
+          Match the <span style="text-decoration: underline;">reflex</span> to the appropriate characteristics below.
+      </div>
+      <div class="answers">
+              <fieldset>
+                <legend class="screenreader-only">
+                  Group of answer choices
+                </legend>
+                
+<div class="answer">
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <label for="question_1813139_answer_5625" aria-label="Proprioreceptors that detect contraction synapse on inhibitory interneurons in the spinal cord Match the reflex to the appropriate characteristics below.">Proprioreceptors that detect contraction synapse on inhibitory interneurons in the spinal cord</label>
+          <br/>
+          <div style="margin-left: 20px;">
+          </div>
+    </div>
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <select name="question_1813139_answer_5625" id="question_1813139_answer_5625" class="question_input mathjax_ignore" style="max-width: 90%;" aria-label="Proprioreceptors that detect contraction synapse on inhibitory interneurons in the spinal cord Match the reflex to the appropriate characteristics below.">
+          <option value="" selected>[ Choose ]</option>
+            <option value="8368" >Rooting Reflex</option>
+            <option value="4478" >Pain Withdrawal Reflex</option>
+            <option value="7566" >Golgi Reflex</option>
+            <option value="2425" >Scratch Reflex</option>
+            <option value="9642" >Stretch Reflex</option>
+        </select>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="answer">
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <label for="question_1813139_answer_9858" aria-label="Receptors signal excitatory inter-neurons in the cord Match the reflex to the appropriate characteristics below.">Receptors signal excitatory inter-neurons in the cord</label>
+          <br/>
+          <div style="margin-left: 20px;">
+          </div>
+    </div>
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <select name="question_1813139_answer_9858" id="question_1813139_answer_9858" class="question_input mathjax_ignore" style="max-width: 90%;" aria-label="Receptors signal excitatory inter-neurons in the cord Match the reflex to the appropriate characteristics below.">
+          <option value="" selected>[ Choose ]</option>
+            <option value="8368" >Rooting Reflex</option>
+            <option value="4478" >Pain Withdrawal Reflex</option>
+            <option value="7566" >Golgi Reflex</option>
+            <option value="2425" >Scratch Reflex</option>
+            <option value="9642" >Stretch Reflex</option>
+        </select>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="answer">
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <label for="question_1813139_answer_624" aria-label="Proprioceptors directly excite a motor neuron Match the reflex to the appropriate characteristics below.">Proprioceptors directly excite a motor neuron</label>
+          <br/>
+          <div style="margin-left: 20px;">
+          </div>
+    </div>
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <select name="question_1813139_answer_624" id="question_1813139_answer_624" class="question_input mathjax_ignore" style="max-width: 90%;" aria-label="Proprioceptors directly excite a motor neuron Match the reflex to the appropriate characteristics below.">
+          <option value="" selected>[ Choose ]</option>
+            <option value="8368" >Rooting Reflex</option>
+            <option value="4478" >Pain Withdrawal Reflex</option>
+            <option value="7566" >Golgi Reflex</option>
+            <option value="2425" >Scratch Reflex</option>
+            <option value="9642" >Stretch Reflex</option>
+        </select>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="answer">
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <label for="question_1813139_answer_6837" aria-label="Touching an infant on the cheek will cause it to turn to and such on that stimulus Match the reflex to the appropriate characteristics below.">Touching an infant on the cheek will cause it to turn to and such on that stimulus</label>
+          <br/>
+          <div style="margin-left: 20px;">
+          </div>
+    </div>
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <select name="question_1813139_answer_6837" id="question_1813139_answer_6837" class="question_input mathjax_ignore" style="max-width: 90%;" aria-label="Touching an infant on the cheek will cause it to turn to and such on that stimulus Match the reflex to the appropriate characteristics below.">
+          <option value="" selected>[ Choose ]</option>
+            <option value="8368" >Rooting Reflex</option>
+            <option value="4478" >Pain Withdrawal Reflex</option>
+            <option value="7566" >Golgi Reflex</option>
+            <option value="2425" >Scratch Reflex</option>
+            <option value="9642" >Stretch Reflex</option>
+        </select>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="answer">
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <label for="question_1813139_answer_2785" aria-label="Involves an oscillator circuit Match the reflex to the appropriate characteristics below.">Involves an oscillator circuit</label>
+          <br/>
+          <div style="margin-left: 20px;">
+          </div>
+    </div>
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <select name="question_1813139_answer_2785" id="question_1813139_answer_2785" class="question_input mathjax_ignore" style="max-width: 90%;" aria-label="Involves an oscillator circuit Match the reflex to the appropriate characteristics below.">
+          <option value="" selected>[ Choose ]</option>
+            <option value="8368" >Rooting Reflex</option>
+            <option value="4478" >Pain Withdrawal Reflex</option>
+            <option value="7566" >Golgi Reflex</option>
+            <option value="2425" >Scratch Reflex</option>
+            <option value="9642" >Stretch Reflex</option>
+        </select>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="answer">
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <label for="question_1813139_answer_8747" aria-label="Involves your system responding to input before you have any conscious awareness of that stimulus Match the reflex to the appropriate characteristics below.">Involves your system responding to input before you have any conscious awareness of that stimulus</label>
+          <br/>
+          <div style="margin-left: 20px;">
+          </div>
+    </div>
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <select name="question_1813139_answer_8747" id="question_1813139_answer_8747" class="question_input mathjax_ignore" style="max-width: 90%;" aria-label="Involves your system responding to input before you have any conscious awareness of that stimulus Match the reflex to the appropriate characteristics below.">
+          <option value="" selected>[ Choose ]</option>
+            <option value="8368" >Rooting Reflex</option>
+            <option value="4478" >Pain Withdrawal Reflex</option>
+            <option value="7566" >Golgi Reflex</option>
+            <option value="2425" >Scratch Reflex</option>
+            <option value="9642" >Stretch Reflex</option>
+        </select>
+    </div>
+    <div class="clear"></div>
+</div>
+
+              </fieldset>
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_1813140"></a>
+  <div class="display_question question matching_question     " id="question_1813140">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+      <a href="#" class="flag_question" role="checkbox" aria-checked="false">
+        <span class="screenreader-only">
+          Flag question: Question 3
+        </span>
+      </a>
+    <div class="header" >
+      <span class="name question_name" role="heading" aria-level="2">Question 3</span>
+      <span class="question_points_holder" style="">
+        <span class="points question_points">2</span> pts
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="#" class="edit_question_link no-hover" title="Edit this Question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this Question</span></i></a>
+          <a href="#" class="delete_question_link no-hover" title="Delete this Question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this Question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">matching_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="/courses/58515/quizzes/187157/questions/1813140" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">&nbsp;</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea disabled style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea disabled style="display: none;" name="question_text" class="textarea_question_text">Match the appropriate &lt;span style=&quot;text-decoration: underline;&quot;&gt;motor pathway&lt;/span&gt; to its characteristics.</textarea>
+      </div>
+      <div id="question_1813140_question_text" class="question_text user_content">
+          Match the appropriate <span style="text-decoration: underline;">motor pathway</span> to its characteristics.
+      </div>
+      <div class="answers">
+              <fieldset>
+                <legend class="screenreader-only">
+                  Group of answer choices
+                </legend>
+                
+<div class="answer">
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <label for="question_1813140_answer_7610" aria-label="Has mainly bi-lateral connections Match the appropriate motor pathway to its characteristics.">Has mainly bi-lateral connections</label>
+          <br/>
+          <div style="margin-left: 20px;">
+          </div>
+    </div>
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <select name="question_1813140_answer_7610" id="question_1813140_answer_7610" class="question_input mathjax_ignore" style="max-width: 90%;" aria-label="Has mainly bi-lateral connections Match the appropriate motor pathway to its characteristics.">
+          <option value="" selected>[ Choose ]</option>
+            <option value="288" >Cortico-Spinal Tracts</option>
+            <option value="7405" >Ventro-Medial Tracts</option>
+        </select>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="answer">
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <label for="question_1813140_answer_4284" aria-label="Mainly contra-lateral connections Match the appropriate motor pathway to its characteristics.">Mainly contra-lateral connections</label>
+          <br/>
+          <div style="margin-left: 20px;">
+          </div>
+    </div>
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <select name="question_1813140_answer_4284" id="question_1813140_answer_4284" class="question_input mathjax_ignore" style="max-width: 90%;" aria-label="Mainly contra-lateral connections Match the appropriate motor pathway to its characteristics.">
+          <option value="" selected>[ Choose ]</option>
+            <option value="288" >Cortico-Spinal Tracts</option>
+            <option value="7405" >Ventro-Medial Tracts</option>
+        </select>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="answer">
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <label for="question_1813140_answer_8865" aria-label="Mainly for control of independent motion of limbs Match the appropriate motor pathway to its characteristics.">Mainly for control of independent motion of limbs</label>
+          <br/>
+          <div style="margin-left: 20px;">
+          </div>
+    </div>
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <select name="question_1813140_answer_8865" id="question_1813140_answer_8865" class="question_input mathjax_ignore" style="max-width: 90%;" aria-label="Mainly for control of independent motion of limbs Match the appropriate motor pathway to its characteristics.">
+          <option value="" selected>[ Choose ]</option>
+            <option value="288" >Cortico-Spinal Tracts</option>
+            <option value="7405" >Ventro-Medial Tracts</option>
+        </select>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="answer">
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <label for="question_1813140_answer_4080" aria-label="Mainly for control of central body structures Match the appropriate motor pathway to its characteristics.">Mainly for control of central body structures</label>
+          <br/>
+          <div style="margin-left: 20px;">
+          </div>
+    </div>
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <select name="question_1813140_answer_4080" id="question_1813140_answer_4080" class="question_input mathjax_ignore" style="max-width: 90%;" aria-label="Mainly for control of central body structures Match the appropriate motor pathway to its characteristics.">
+          <option value="" selected>[ Choose ]</option>
+            <option value="288" >Cortico-Spinal Tracts</option>
+            <option value="7405" >Ventro-Medial Tracts</option>
+        </select>
+    </div>
+    <div class="clear"></div>
+</div>
+
+              </fieldset>
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_1813141"></a>
+  <div class="display_question question multiple_dropdowns_question     " id="question_1813141">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+      <a href="#" class="flag_question" role="checkbox" aria-checked="false">
+        <span class="screenreader-only">
+          Flag question: Question 4
+        </span>
+      </a>
+    <div class="header" >
+      <span class="name question_name" role="heading" aria-level="2">Question 4</span>
+      <span class="question_points_holder" style="">
+        <span class="points question_points">2</span> pts
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="#" class="edit_question_link no-hover" title="Edit this Question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this Question</span></i></a>
+          <a href="#" class="delete_question_link no-hover" title="Delete this Question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this Question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">multiple_dropdowns_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="/courses/58515/quizzes/187157/questions/1813141" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">2036064</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea disabled style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea disabled style="display: none;" name="question_text" class="textarea_question_text">&lt;p&gt;Indicate whether the following is TRUE or FALSE of the &lt;span style=&quot;text-decoration: underline;&quot;&gt;Cerebellum&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;A)&amp;nbsp; &amp;nbsp;The cerebellum works to coordinate movements requiring precise aiming and timing.&amp;nbsp; &lt;select class=&#39;question_input&#39; name=&#39;question_1813141_5ad018655f709bbc25f55df282068edb&#39;&gt;
+  &lt;option value=&#39;&#39;&gt;
+    [ Select ]
+  &lt;/option&gt;
+  [&quot;&lt;option value=&#39;3265&#39;&gt;True&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;6445&#39;&gt;False&lt;/option&gt;&quot;]
+&lt;/select&gt;
+&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;B)&amp;nbsp; &amp;nbsp;The cerebellum encodes &quot;innate&quot; rather than &quot;learned&quot; movement patterns. &lt;select class=&#39;question_input&#39; name=&#39;question_1813141_937eb83e457af3fbaaff567035188dc4&#39;&gt;
+  &lt;option value=&#39;&#39;&gt;
+    [ Select ]
+  &lt;/option&gt;
+  [&quot;&lt;option value=&#39;452&#39;&gt;True&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;6036&#39;&gt;False&lt;/option&gt;&quot;]
+&lt;/select&gt;
+&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;C)&amp;nbsp; &amp;nbsp;Within the cerebellum, Parallel Fibers connect Purkinje Cells. &lt;select class=&#39;question_input&#39; name=&#39;question_1813141_a3f9c3d0a562083f6f0a783da8421946&#39;&gt;
+  &lt;option value=&#39;&#39;&gt;
+    [ Select ]
+  &lt;/option&gt;
+  [&quot;&lt;option value=&#39;2328&#39;&gt;True&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;241&#39;&gt;False&lt;/option&gt;&quot;]
+&lt;/select&gt;
+&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;D)&amp;nbsp; &amp;nbsp;Purkinje Cells release excitation to Deep Nuclei. &lt;select class=&#39;question_input&#39; name=&#39;question_1813141_3abc5b346f55e29da18d730b5237530d&#39;&gt;
+  &lt;option value=&#39;&#39;&gt;
+    [ Select ]
+  &lt;/option&gt;
+  [&quot;&lt;option value=&#39;4631&#39;&gt;True&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;4694&#39;&gt;False&lt;/option&gt;&quot;]
+&lt;/select&gt;
+&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;E)&amp;nbsp; &amp;nbsp;The Cerebellum codes the relative timing of moves in terms of the relative distance signals travel along Purkinje Cells. &lt;select class=&#39;question_input&#39; name=&#39;question_1813141_92087adc9b3840357336018f24f2a485&#39;&gt;
+  &lt;option value=&#39;&#39;&gt;
+    [ Select ]
+  &lt;/option&gt;
+  [&quot;&lt;option value=&#39;9516&#39;&gt;True&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;4966&#39;&gt;False&lt;/option&gt;&quot;]
+&lt;/select&gt;
+&lt;/p&gt;</textarea>
+      </div>
+      <div id="question_1813141_question_text" class="question_text user_content">
+          <p>Indicate whether the following is TRUE or FALSE of the <span style="text-decoration: underline;">Cerebellum</span>.</p>
+<p>&nbsp; &nbsp; &nbsp;A)&nbsp; &nbsp;The cerebellum works to coordinate movements requiring precise aiming and timing.&nbsp; <select class="question_input" name="question_1813141_5ad018655f709bbc25f55df282068edb" aria-label="Multiple dropdowns, read surrounding text">
+  <option value="" selected="selected">
+    [ Select ]
+  </option>
+  ["<option value="3265">True</option>", "<option value="6445">False</option>"]
+</select>
+</p>
+<p>&nbsp; &nbsp; &nbsp;B)&nbsp; &nbsp;The cerebellum encodes "innate" rather than "learned" movement patterns. <select class="question_input" name="question_1813141_937eb83e457af3fbaaff567035188dc4" aria-label="Multiple dropdowns, read surrounding text">
+  <option value="" selected="selected">
+    [ Select ]
+  </option>
+  ["<option value="452">True</option>", "<option value="6036">False</option>"]
+</select>
+</p>
+<p>&nbsp; &nbsp; &nbsp;C)&nbsp; &nbsp;Within the cerebellum, Parallel Fibers connect Purkinje Cells. <select class="question_input" name="question_1813141_a3f9c3d0a562083f6f0a783da8421946" aria-label="Multiple dropdowns, read surrounding text">
+  <option value="" selected="selected">
+    [ Select ]
+  </option>
+  ["<option value="2328">True</option>", "<option value="241">False</option>"]
+</select>
+</p>
+<p>&nbsp; &nbsp; &nbsp;D)&nbsp; &nbsp;Purkinje Cells release excitation to Deep Nuclei. <select class="question_input" name="question_1813141_3abc5b346f55e29da18d730b5237530d" aria-label="Multiple dropdowns, read surrounding text">
+  <option value="" selected="selected">
+    [ Select ]
+  </option>
+  ["<option value="4631">True</option>", "<option value="4694">False</option>"]
+</select>
+</p>
+<p>&nbsp; &nbsp; &nbsp;E)&nbsp; &nbsp;The Cerebellum codes the relative timing of moves in terms of the relative distance signals travel along Purkinje Cells. <select class="question_input" name="question_1813141_92087adc9b3840357336018f24f2a485" aria-label="Multiple dropdowns, read surrounding text">
+  <option value="" selected="selected">
+    [ Select ]
+  </option>
+  ["<option value="9516">True</option>", "<option value="4966">False</option>"]
+</select>
+</p>
+      </div>
+      <div class="answers">
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_1813142"></a>
+  <div class="display_question question multiple_dropdowns_question     " id="question_1813142">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+      <a href="#" class="flag_question" role="checkbox" aria-checked="false">
+        <span class="screenreader-only">
+          Flag question: Question 5
+        </span>
+      </a>
+    <div class="header" >
+      <span class="name question_name" role="heading" aria-level="2">Question 5</span>
+      <span class="question_points_holder" style="">
+        <span class="points question_points">2</span> pts
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="#" class="edit_question_link no-hover" title="Edit this Question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this Question</span></i></a>
+          <a href="#" class="delete_question_link no-hover" title="Delete this Question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this Question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">multiple_dropdowns_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="/courses/58515/quizzes/187157/questions/1813142" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">2036050</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea disabled style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea disabled style="display: none;" name="question_text" class="textarea_question_text">&lt;p&gt;Indicate whether the following is TRUE or FALSE of the &lt;span style=&quot;text-decoration: underline;&quot;&gt;Basal Ganglia&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;A) &amp;nbsp; The Basal Ganglia is a &quot;re-entrant&quot; system which means information repeatedly enters the system only from lower brain centers.&amp;nbsp; &lt;select class=&#39;question_input&#39; name=&#39;question_1813142_5ad018655f709bbc25f55df282068edb&#39;&gt;
+  &lt;option value=&#39;&#39;&gt;
+    [ Select ]
+  &lt;/option&gt;
+  [&quot;&lt;option value=&#39;792&#39;&gt;True&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;8983&#39;&gt;False&lt;/option&gt;&quot;]
+&lt;/select&gt;
+&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;B)&amp;nbsp; &amp;nbsp; Among the pathologies associated with damage to the Basal Ganglia are Obsessive-Compulsive Disorder and Attention Deficit Disorder. &lt;select class=&#39;question_input&#39; name=&#39;question_1813142_937eb83e457af3fbaaff567035188dc4&#39;&gt;
+  &lt;option value=&#39;&#39;&gt;
+    [ Select ]
+  &lt;/option&gt;
+  [&quot;&lt;option value=&#39;6105&#39;&gt;True&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;6715&#39;&gt;False&lt;/option&gt;&quot;]
+&lt;/select&gt;
+&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;C)&amp;nbsp; &amp;nbsp;Parkinson&#39;s Disease involves insufficient Serotonin levels from the Substantia Nigra to the BG&#39;s Striatum. &lt;select class=&#39;question_input&#39; name=&#39;question_1813142_a3f9c3d0a562083f6f0a783da8421946&#39;&gt;
+  &lt;option value=&#39;&#39;&gt;
+    [ Select ]
+  &lt;/option&gt;
+  [&quot;&lt;option value=&#39;867&#39;&gt;True&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;6092&#39;&gt;False&lt;/option&gt;&quot;]
+&lt;/select&gt;
+&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;D)&amp;nbsp; &amp;nbsp;The Globus Pallidus mainly receives sensory-motor information, while the&amp;nbsp; Caudate Nucleus and Putamen mainly output motion signals. &lt;select class=&#39;question_input&#39; name=&#39;question_1813142_3abc5b346f55e29da18d730b5237530d&#39;&gt;
+  &lt;option value=&#39;&#39;&gt;
+    [ Select ]
+  &lt;/option&gt;
+  [&quot;&lt;option value=&#39;6830&#39;&gt;True&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;1855&#39;&gt;False&lt;/option&gt;&quot;]
+&lt;/select&gt;
+&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;E) &amp;nbsp; The Basal Ganglia organizes motor activity in terms of tasks. &lt;select class=&#39;question_input&#39; name=&#39;question_1813142_92087adc9b3840357336018f24f2a485&#39;&gt;
+  &lt;option value=&#39;&#39;&gt;
+    [ Select ]
+  &lt;/option&gt;
+  [&quot;&lt;option value=&#39;8369&#39;&gt;True&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;46&#39;&gt;False&lt;/option&gt;&quot;]
+&lt;/select&gt;
+&lt;/p&gt;</textarea>
+      </div>
+      <div id="question_1813142_question_text" class="question_text user_content">
+          <p>Indicate whether the following is TRUE or FALSE of the <span style="text-decoration: underline;">Basal Ganglia</span>.</p>
+<p>&nbsp; &nbsp; &nbsp;A) &nbsp; The Basal Ganglia is a "re-entrant" system which means information repeatedly enters the system only from lower brain centers.&nbsp; <select class="question_input" name="question_1813142_5ad018655f709bbc25f55df282068edb" aria-label="Multiple dropdowns, read surrounding text">
+  <option value="" selected="selected">
+    [ Select ]
+  </option>
+  ["<option value="792">True</option>", "<option value="8983">False</option>"]
+</select>
+</p>
+<p>&nbsp; &nbsp; &nbsp;B)&nbsp; &nbsp; Among the pathologies associated with damage to the Basal Ganglia are Obsessive-Compulsive Disorder and Attention Deficit Disorder. <select class="question_input" name="question_1813142_937eb83e457af3fbaaff567035188dc4" aria-label="Multiple dropdowns, read surrounding text">
+  <option value="" selected="selected">
+    [ Select ]
+  </option>
+  ["<option value="6105">True</option>", "<option value="6715">False</option>"]
+</select>
+</p>
+<p>&nbsp; &nbsp; &nbsp;C)&nbsp; &nbsp;Parkinson's Disease involves insufficient Serotonin levels from the Substantia Nigra to the BG's Striatum. <select class="question_input" name="question_1813142_a3f9c3d0a562083f6f0a783da8421946" aria-label="Multiple dropdowns, read surrounding text">
+  <option value="" selected="selected">
+    [ Select ]
+  </option>
+  ["<option value="867">True</option>", "<option value="6092">False</option>"]
+</select>
+</p>
+<p>&nbsp; &nbsp; &nbsp;D)&nbsp; &nbsp;The Globus Pallidus mainly receives sensory-motor information, while the&nbsp; Caudate Nucleus and Putamen mainly output motion signals. <select class="question_input" name="question_1813142_3abc5b346f55e29da18d730b5237530d" aria-label="Multiple dropdowns, read surrounding text">
+  <option value="" selected="selected">
+    [ Select ]
+  </option>
+  ["<option value="6830">True</option>", "<option value="1855">False</option>"]
+</select>
+</p>
+<p>&nbsp; &nbsp; &nbsp;E) &nbsp; The Basal Ganglia organizes motor activity in terms of tasks. <select class="question_input" name="question_1813142_92087adc9b3840357336018f24f2a485" aria-label="Multiple dropdowns, read surrounding text">
+  <option value="" selected="selected">
+    [ Select ]
+  </option>
+  ["<option value="8369">True</option>", "<option value="46">False</option>"]
+</select>
+</p>
+      </div>
+      <div class="answers">
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_1813143"></a>
+  <div class="display_question question matching_question     " id="question_1813143">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+      <a href="#" class="flag_question" role="checkbox" aria-checked="false">
+        <span class="screenreader-only">
+          Flag question: Question 6
+        </span>
+      </a>
+    <div class="header" >
+      <span class="name question_name" role="heading" aria-level="2">Question 6</span>
+      <span class="question_points_holder" style="">
+        <span class="points question_points">2</span> pts
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="#" class="edit_question_link no-hover" title="Edit this Question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this Question</span></i></a>
+          <a href="#" class="delete_question_link no-hover" title="Delete this Question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this Question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">matching_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="/courses/58515/quizzes/187157/questions/1813143" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">&nbsp;</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea disabled style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea disabled style="display: none;" name="question_text" class="textarea_question_text">Select the correct match to each of the following areas within the &lt;span style=&quot;text-decoration: underline;&quot;&gt;Motor Cortex&lt;/span&gt;.</textarea>
+      </div>
+      <div id="question_1813143_question_text" class="question_text user_content">
+          Select the correct match to each of the following areas within the <span style="text-decoration: underline;">Motor Cortex</span>.
+      </div>
+      <div class="answers">
+              <fieldset>
+                <legend class="screenreader-only">
+                  Group of answer choices
+                </legend>
+                
+<div class="answer">
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <label for="question_1813143_answer_411" aria-label="Found in pre-motor cortex Select the correct match to each of the following areas within the Motor Cortex.">Found in pre-motor cortex</label>
+          <br/>
+          <div style="margin-left: 20px;">
+          </div>
+    </div>
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <select name="question_1813143_answer_411" id="question_1813143_answer_411" class="question_input mathjax_ignore" style="max-width: 90%;" aria-label="Found in pre-motor cortex Select the correct match to each of the following areas within the Motor Cortex.">
+          <option value="" selected>[ Choose ]</option>
+            <option value="7344" >Mirror Cells</option>
+            <option value="4821" >Primary Motor Cortex</option>
+            <option value="4547" >Supplementary Motor Cortex</option>
+        </select>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="answer">
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <label for="question_1813143_answer_3231" aria-label="Found on the precentral gyrus Select the correct match to each of the following areas within the Motor Cortex.">Found on the precentral gyrus</label>
+          <br/>
+          <div style="margin-left: 20px;">
+          </div>
+    </div>
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <select name="question_1813143_answer_3231" id="question_1813143_answer_3231" class="question_input mathjax_ignore" style="max-width: 90%;" aria-label="Found on the precentral gyrus Select the correct match to each of the following areas within the Motor Cortex.">
+          <option value="" selected>[ Choose ]</option>
+            <option value="7344" >Mirror Cells</option>
+            <option value="4821" >Primary Motor Cortex</option>
+            <option value="4547" >Supplementary Motor Cortex</option>
+        </select>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="answer">
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <label for="question_1813143_answer_5928" aria-label="Especially involved in processing rapid sequences of movement Select the correct match to each of the following areas within the Motor Cortex.">Especially involved in processing rapid sequences of movement</label>
+          <br/>
+          <div style="margin-left: 20px;">
+          </div>
+    </div>
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <select name="question_1813143_answer_5928" id="question_1813143_answer_5928" class="question_input mathjax_ignore" style="max-width: 90%;" aria-label="Especially involved in processing rapid sequences of movement Select the correct match to each of the following areas within the Motor Cortex.">
+          <option value="" selected>[ Choose ]</option>
+            <option value="7344" >Mirror Cells</option>
+            <option value="4821" >Primary Motor Cortex</option>
+            <option value="4547" >Supplementary Motor Cortex</option>
+        </select>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="answer">
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <label for="question_1813143_answer_8417" aria-label="Can be found in Brroca&#39;s Area Select the correct match to each of the following areas within the Motor Cortex.">Can be found in Brroca&#39;s Area</label>
+          <br/>
+          <div style="margin-left: 20px;">
+          </div>
+    </div>
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <select name="question_1813143_answer_8417" id="question_1813143_answer_8417" class="question_input mathjax_ignore" style="max-width: 90%;" aria-label="Can be found in Brroca&#39;s Area Select the correct match to each of the following areas within the Motor Cortex.">
+          <option value="" selected>[ Choose ]</option>
+            <option value="7344" >Mirror Cells</option>
+            <option value="4821" >Primary Motor Cortex</option>
+            <option value="4547" >Supplementary Motor Cortex</option>
+        </select>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="answer">
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <label for="question_1813143_answer_6210" aria-label="Includes a topological map of the body Select the correct match to each of the following areas within the Motor Cortex.">Includes a topological map of the body</label>
+          <br/>
+          <div style="margin-left: 20px;">
+          </div>
+    </div>
+    <div class="pull-left" style="width: 40%; margin-top: 10px;">
+        <select name="question_1813143_answer_6210" id="question_1813143_answer_6210" class="question_input mathjax_ignore" style="max-width: 90%;" aria-label="Includes a topological map of the body Select the correct match to each of the following areas within the Motor Cortex.">
+          <option value="" selected>[ Choose ]</option>
+            <option value="7344" >Mirror Cells</option>
+            <option value="4821" >Primary Motor Cortex</option>
+            <option value="4547" >Supplementary Motor Cortex</option>
+        </select>
+    </div>
+    <div class="clear"></div>
+</div>
+
+              </fieldset>
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+
+
+    <div class="button-container clearfix">
+    </div>
+  </div>
+
+  <div style="font-size: 1.2em; display: none;" id="times_up_dialog">
+    Time&#39;s Up! Submitting results in:
+    <div style="text-align: center; font-size: 1.2em; margin: 10px;" class="countdown_seconds"></div>
+    <div class="button-container">
+      <button type="submit" class="submit_quiz_button btn quiz_submit">
+        Ok, fine
+      </button>
+    </div>
+  </div>
+
+  <div class=form-actions>
+    <span id="last_saved_indicator">Not saved</span>
+    <button type="submit" class="btn submit_button quiz_submit btn-secondary" id="submit_quiz_button" data-action="/courses/58515/quizzes/187157/submissions?user_id=219752">
+      Submit Quiz
+    </button>
+  </div>
+
+</form>
+  <form id="deauthorized_dialog"
+    class="hide"
+    title="Login Required"
+    action="/courses/58515/quizzes/187157"
+    method="get">
+    <div class="text-center">
+      <strong>You have been logged out of canvas.</strong><br /> To continue please log in
+    </div>
+  </form>
+</div>
+
+          </div>
+        </div>
+        <div id="right-side-wrapper" class="ic-app-main-content__secondary">
+          <aside id="right-side" role="complementary">
+              
+<div>
+
+  
+<h3 style="margin: 0px;">Questions</h3>
+<ul id="question_list" style="max-height: 200px; overflow: auto;" class="">
+
+    <li id="list_question_1813138" class="list_question seen">
+        <a class="jump_to_question_link" href="#question_1813138">
+          <i class="placeholder icon-question"><span class="screenreader-only icon-text">Haven&#39;t Answered Yet</span></i>Question 1
+          <span class="screenreader-only marked-status"></span>
+        </a>
+    </li>
+
+    <li id="list_question_1813139" class="list_question">
+        <a class="jump_to_question_link" href="#question_1813139">
+          <i class="placeholder icon-question"><span class="screenreader-only icon-text">Haven&#39;t Answered Yet</span></i>Question 2
+          <span class="screenreader-only marked-status"></span>
+        </a>
+    </li>
+
+    <li id="list_question_1813140" class="list_question">
+        <a class="jump_to_question_link" href="#question_1813140">
+          <i class="placeholder icon-question"><span class="screenreader-only icon-text">Haven&#39;t Answered Yet</span></i>Question 3
+          <span class="screenreader-only marked-status"></span>
+        </a>
+    </li>
+
+    <li id="list_question_1813141" class="list_question">
+        <a class="jump_to_question_link" href="#question_1813141">
+          <i class="placeholder icon-question"><span class="screenreader-only icon-text">Haven&#39;t Answered Yet</span></i>Question 4
+          <span class="screenreader-only marked-status"></span>
+        </a>
+    </li>
+
+    <li id="list_question_1813142" class="list_question">
+        <a class="jump_to_question_link" href="#question_1813142">
+          <i class="placeholder icon-question"><span class="screenreader-only icon-text">Haven&#39;t Answered Yet</span></i>Question 5
+          <span class="screenreader-only marked-status"></span>
+        </a>
+    </li>
+
+    <li id="list_question_1813143" class="list_question">
+        <a class="jump_to_question_link" href="#question_1813143">
+          <i class="placeholder icon-question"><span class="screenreader-only icon-text">Haven&#39;t Answered Yet</span></i>Question 6
+          <span class="screenreader-only marked-status"></span>
+        </a>
+    </li>
+</ul>
+
+
+  <div id="quiz-time-elapsed">
+    <div style="display: flex; align-items: center;">
+      <span class="time_header">
+          Time Elapsed:
+      </span>
+      <span style="padding-left: 10px;">
+        <a style="font-size: 0.8em; padding: 3px 6px" href="#" class="btn hide_time_link">Hide Time</a>
+      </span>
+    </div>
+      <div style="font-size: 0.8em;">
+        Attempt due:
+        Nov 8 at 11:59pm
+      </div>
+    <div class="clear"></div>
+    <div class="time_running"></div>
+  </div>
+</div>
+
+
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div style="display:none;"><!-- Everything inside of this should always stay hidden -->
+        <div id="page_view_id">929be68a-d13d-41b1-a5c6-a2cb7518543a</div>
+    </div>
+  <div id='aria_alerts' class='hide-text affix' role="alert" aria-live="assertive"></div>
+  <div id='StudentTray__Container'></div>
+  <div id="react-router-portals"></div>
+  
+
+  <iframe src="https://sso.canvaslms.com/post_message_forwarding?rev=59677caad5-de8233d392aa15f4&amp;token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJwYXJlbnRfZG9tYWluIjoiY2FudmFzLnVjc2QuZWR1In0.mhPU2WtU33B2B644zLRzxGZwhZ0YnmiaA0R9VTEEUiOIItwRjbHihh8P_Vpnw7DAWeqKKIS4euEyutPdmxdlHg" name="post_message_forwarding" title="post_message_forwarding" id="post_message_forwarding" sandbox="allow-scripts allow-same-origin" style="display:none;"></iframe>
+
+
+  <script>
+    Object.assign(
+      ENV,
+      {}
+    )
+  </script>
+
+<script>
+//<![CDATA[
+(window.bundles || (window.bundles = [])).push('inst_fs_service_worker');
+//]]>
+</script>
+  <script src="https://instructure-uploads.s3.amazonaws.com/account_131710000000000001/attachments/13388611/dp.js" defer="defer"></script>
+
+</div> <!-- #application -->
+</body>
+</html>

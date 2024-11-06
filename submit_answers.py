@@ -5,6 +5,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from dotenv import load_dotenv
+load_dotenv()
 
 def parse_answers(file_path):
     answers = {}
@@ -44,7 +46,8 @@ def submit_quiz_answers():
         time.sleep(15)  # Wait for manual Duo confirmation
         
         # Navigate to quiz page
-        quiz_url = "https://canvas.ucsd.edu/courses/58515/quizzes/187173"
+        # quiz_url = "https://canvas.ucsd.edu/courses/58515/quizzes/187173"
+        quiz_url = "https://canvas.ucsd.edu/courses/58515/quizzes/187157?module_item_id=2475765"
         print(f"Navigating to quiz page: {quiz_url}")
         driver.get(quiz_url)
         
@@ -62,21 +65,44 @@ def submit_quiz_answers():
         # Fill in all answers at once
         for question_id, answer in answers.items():
             try:
-                # Find dropdown by name
-                dropdown_element = WebDriverWait(driver, 5).until(
-                    EC.presence_of_element_located((By.NAME, question_id))
-                )
-                dropdown = Select(dropdown_element)
+                print(f"\nAttempting to answer {question_id}")
                 
-                # Find and select the matching option
-                for option in dropdown.options:
-                    if option.text.strip() == answer.strip():
-                        dropdown.select_by_value(option.get_attribute('value'))
-                        print(f"Selected answer for {question_id}: {answer}")
-                        break
+                # Find all radio buttons for this question
+                radio_buttons = driver.find_elements(By.CSS_SELECTOR, f"input[type='radio'][name='{question_id}']")
+                
+                if radio_buttons:
+                    print(f"Found {len(radio_buttons)} radio buttons")
+                    # Find all answer labels
+                    labels = driver.find_elements(By.CSS_SELECTOR, f"div[class='answer_label']")
+                    
+                    # Match answer with label and click corresponding radio button
+                    for i, label in enumerate(labels):
+                        text = label.text.strip().strip('"')
+                        print(f"Checking option: {text}")
+                        if text == answer.strip().strip('"'):
+                            radio_buttons[i].click()
+                            print(f"Selected: {text}")
+                            break
+                else:
+                    # If no radio buttons found, try dropdown
+                    element = WebDriverWait(driver, 5).until(
+                        EC.presence_of_element_located((By.NAME, question_id))
+                    )
+                    
+                    if element.tag_name == 'select':
+                        print("Handling as dropdown")
+                        dropdown = Select(element)
+                        for option in dropdown.options:
+                            if option.text.strip() == answer.strip():
+                                dropdown.select_by_value(option.get_attribute('value'))
+                                print(f"Selected dropdown answer for {question_id}: {answer}")
+                                break
+                    else:
+                        print(f"Unknown element type: {element.tag_name}")
                 
             except Exception as e:
                 print(f"Could not set answer for {question_id}: {str(e)}")
+                print(f"Full error: {e.__class__.__name__}")
         
         # Optional: Wait for user confirmation before submitting
         input("Press Enter to submit quiz (or Ctrl+C to cancel)...")
