@@ -1,6 +1,6 @@
 # Canvas HW Automation for a class
 
-A Python script that automates brute force finding correct answers for Canvas HW and submitting them. Really using the infinite HW retries.
+A Python script that automates brute force finding correct answers for Canvas HW and submitting them. Really using the infinite HW retries. Watching it run is really fun.
 
 ## Overview
 
