@@ -2,19 +2,9 @@
 - selecting multiple choice in submitting_answers
 - multi-select questions
 - selecting multi-select questions in submitting_answers
-- 
+- make the answer choices smarter: 1. save answers already selected in dropdown questions without repeating answers 2. use gpt api to get a 80% first answer
 
-
-
-
-
-ok time to make this more robust:
-
-- i want to be able to input ONLY the url of the quiz and have it work.
-- for each quiz, it should make a new file for the quiz_num_source.html, quiz_num_answers.txt
-- have the canvas username and password stored somewhere
-
-
+- doesn't work on practice hws because the html file is slightly different
 
 
 workflow:

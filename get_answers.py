@@ -37,29 +37,30 @@ def try_answer(driver, question, option):
         dropdown = Select(dropdown_element)
         dropdown.select_by_value(option['value'])
 
-def canvas_automation(quiz_dir, quiz_url):
-    driver = webdriver.Chrome()
-    driver.get("https://canvas.ucsd.edu")
+def load_existing_answers(quiz_dir):
+    """Load existing answers from answers.txt into a dictionary"""
+    answers_path = os.path.join(quiz_dir, 'answers.txt')
+    existing_answers = {}
+    
+    if os.path.exists(answers_path):
+        with open(answers_path, 'r') as f:
+            for line in f:
+                if line.strip():
+                    # Parse "Question question_name: answer_text"
+                    parts = line.split(':', 1)
+                    if len(parts) == 2:
+                        question_name = parts[0].replace('Question ', '').strip()
+                        answer_text = parts[1].strip()
+                        existing_answers[question_name] = answer_text
+    
+    return existing_answers
+
+def canvas_automation(driver, quiz_dir, quiz_url):
+    """Modified to check existing answers and resume progress"""
     quiz_structure = load_quiz_structure(quiz_dir)
+    existing_answers = load_existing_answers(quiz_dir)
     
-    # Wait for SSO username field
-    username = WebDriverWait(driver, 20).until(
-        EC.presence_of_element_located((By.ID, "ssousername"))
-    )
-    # Find password field
-    password = driver.find_element(By.ID, "ssopassword")
-    
-    # Input credentials
-    username.send_keys(os.environ["CANVAS_USERNAME"])
-    password.send_keys(os.environ["CANVAS_PASSWORD"])
-    
-    print("Clicking login button...")
-    login_button = driver.find_element(By.CSS_SELECTOR, "button[type='submit']")
-    login_button.click()
-    
-    print("Waiting for Duo push confirmation...")
-    time.sleep(15)  # Wait for manual Duo confirmation
-    
+    print(f"Found {len(existing_answers)} existing answers")
     print(f"Navigating to quiz page: {quiz_url}")
     driver.get(quiz_url)
     
@@ -68,7 +69,14 @@ def canvas_automation(quiz_dir, quiz_url):
         if not question.get('name'):
             continue
             
-        print(f"\nTesting answers for question type {question['type']}: {question['name']}")
+        question_name = question['name']
+        
+        # Check if we already have the answer
+        if question_name in existing_answers:
+            print(f"\nSkipping question {question_name} - answer already found: {existing_answers[question_name]}")
+            continue
+            
+        print(f"\nTesting answers for question type {question['type']}: {question_name}")
         
         # Try each option for this question
         for option in question['options']:
@@ -107,16 +115,5 @@ def canvas_automation(quiz_dir, quiz_url):
             # If score is non-zero, we found a correct answer
             if score != "0":
                 print(f"Found correct answer! {option['text']} gives score: {score}")
-                save_answer(quiz_dir, question['name'], option['text'])
+                save_answer(quiz_dir, question_name, option['text'])
                 break  # Move to next question
-    
-    input("Press Enter to close the browser...")
-        
-if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: python main.py <quiz_directory> <quiz_url>")
-        sys.exit(1)
-        
-    quiz_dir = sys.argv[1]
-    quiz_url = sys.argv[2]
-    canvas_automation(quiz_dir, quiz_url)
