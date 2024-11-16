@@ -62,3 +62,9 @@ For each quiz, creates a directory `quiz_[ID]` containing:
 - Will not work for select multiple questions, fill-in-the-blank questions
 - Will not work for slightly different HTML structures
 - Uses the most basic brute force method of finding answers
+
+## Finding answers (1.5x speed)
+![Video](./brute_forcing.gif)
+
+## Submitting answers
+![Video](./submitting_answers.gif)
